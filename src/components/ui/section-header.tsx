@@ -7,6 +7,7 @@ interface SectionHeaderProps {
   description?: string;
   align?: "left" | "center";
   className?: string;
+  theme?: "dark" | "light";
 }
 
 export function SectionHeader({
@@ -15,23 +16,33 @@ export function SectionHeader({
   description,
   align = "left",
   className,
+  theme = "dark",
 }: SectionHeaderProps) {
   return (
     <div
       className={cn(
         "mb-12 md:mb-16 flex flex-col",
-        align === "center" ? "items-center text-center" : "items-start text-left",
+        align === "center" ? "items-center text-center animate-fade-in" : "items-start text-left",
         className
       )}
     >
-      <span className="text-[10px] md:text-xs font-semibold uppercase tracking-[0.25em] text-studio-accent mb-3 font-sans">
+      <span className={cn(
+        "text-[10px] md:text-xs font-semibold uppercase tracking-[0.3em] mb-3 font-sans",
+        theme === "light" ? "text-studio-accent/90" : "text-studio-accent"
+      )}>
         {caption}
       </span>
-      <h2 className="text-3xl md:text-5xl font-serif font-light text-studio-heading leading-tight max-w-3xl">
+      <h2 className={cn(
+        "text-3xl md:text-5xl font-sans font-extrabold leading-tight tracking-tight uppercase max-w-4xl",
+        theme === "light" ? "text-studio-bg" : "text-studio-heading"
+      )}>
         {title}
       </h2>
       {description && (
-        <p className="mt-4 text-sm md:text-base text-studio-body/80 max-w-2xl leading-relaxed font-sans">
+        <p className={cn(
+          "mt-4 text-sm md:text-base max-w-2xl leading-relaxed font-sans font-light",
+          theme === "light" ? "text-stone-600" : "text-studio-body/80"
+        )}>
           {description}
         </p>
       )}

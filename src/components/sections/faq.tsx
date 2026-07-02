@@ -38,8 +38,8 @@ const faqs = [
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-24 md:py-32 bg-studio-card relative">
-      <div className="max-w-4xl mx-auto px-6">
+    <section id="faq" className="py-24 pb-32 md:py-32 md:pb-44 bg-studio-card relative overflow-hidden">
+      <div className="max-w-4xl mx-auto px-6 relative z-10">
         <SectionHeader
           caption="Information"
           title="Frequently asked questions."
@@ -55,6 +55,18 @@ export function FAQ() {
             </AccordionItem>
           ))}
         </Accordion>
+      </div>
+
+      {/* Bottom curved SVG divider transitioning to Insights bg (#F5F3EF) */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
+        <svg
+          className="relative block w-full h-[40px] md:h-[60px]"
+          viewBox="0 0 1440 100"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#F5F3EF" />
+        </svg>
       </div>
     </section>
   );

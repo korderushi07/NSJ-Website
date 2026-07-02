@@ -6,8 +6,8 @@ import { SectionHeader } from "@/components/ui/section-header";
 
 export function Founder() {
   return (
-    <section id="founder" className="py-24 md:py-32 bg-studio-bg overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+    <section id="founder" className="py-24 pb-32 md:py-32 md:pb-44 bg-studio-bg relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           
           {/* Left Column - Founder Portrait Image */}
@@ -63,6 +63,18 @@ export function Founder() {
           </div>
 
         </div>
+      </div>
+
+      {/* Bottom curved SVG divider transitioning to Testimonials bg (#F5F3EF) */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
+        <svg
+          className="relative block w-full h-[40px] md:h-[60px]"
+          viewBox="0 0 1440 100"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#F5F3EF" />
+        </svg>
       </div>
     </section>
   );

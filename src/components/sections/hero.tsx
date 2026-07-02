@@ -25,8 +25,8 @@ export function Hero() {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 md:px-12 w-full pt-20">
-        <div className="max-w-3xl">
+      <div className="relative z-20 max-w-7xl mx-auto px-6 md:px-12 w-full pt-28 flex flex-col items-center justify-center text-center">
+        <div className="max-w-4xl flex flex-col items-center">
           <motion.span
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
@@ -40,35 +40,34 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            className="text-4xl sm:text-5xl md:text-7xl font-serif font-light text-studio-heading leading-[1.1] mb-6"
+            className="text-4xl sm:text-5xl md:text-7xl font-sans font-extrabold text-studio-heading leading-[1.1] mb-6 tracking-tight uppercase max-w-5xl"
           >
-            Designing spaces that <span className="italic font-normal">endure</span>.
+            EXPERIENCE ENDURING SPACES WITH NSJ STUDIO
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="text-sm md:text-lg text-studio-body/80 leading-relaxed mb-8 max-w-xl font-sans"
+            className="text-base md:text-xl text-studio-body/90 leading-relaxed mb-10 max-w-3xl font-serif font-light italic"
           >
-            NSJ Studio is an architectural practice specializing in luxury residential, commercial workplace, and turnkey delivery. We balance modern minimalist forms with rich natural textures.
+            Designing structures and interiors that stand the test of time, pairing modernist forms with Central India&apos;s climate.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Link href="/projects">
-              <Button variant="primary" size="lg" className="group w-full sm:w-auto flex items-center justify-center gap-2">
-                Explore Projects
-                <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-              </Button>
-            </Link>
-            <Link href="/contact">
-              <Button variant="secondary" size="lg" className="w-full sm:w-auto">
-                Book Consultation
+              <Button
+                variant="primary"
+                size="lg"
+                className="group rounded-full bg-white text-studio-bg hover:bg-white/90 border-0 px-8 py-4 font-semibold flex items-center justify-center gap-2 shadow-lg"
+              >
+                Explore Our Commissions
+                <ArrowRight size={14} className="transition-transform group-hover:translate-x-1 text-studio-bg" />
               </Button>
             </Link>
           </motion.div>
@@ -80,7 +79,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.3 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center cursor-pointer hidden md:flex"
+        className="absolute bottom-16 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center cursor-pointer hidden md:flex"
         onClick={() => {
           document.getElementById("intro")?.scrollIntoView({ behavior: "smooth" });
         }}
@@ -90,6 +89,18 @@ export function Hero() {
           <div className="absolute top-0 left-0 w-full h-1/2 bg-studio-accent animate-bounce" />
         </div>
       </motion.div>
+
+      {/* Bottom curved SVG divider dipping down into the light section */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
+        <svg
+          className="relative block w-full h-[40px] md:h-[60px]"
+          viewBox="0 0 1440 100"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#F5F3EF" />
+        </svg>
+      </div>
     </section>
   );
 }

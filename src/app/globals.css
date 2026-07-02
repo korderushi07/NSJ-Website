@@ -26,7 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-studio-heading);
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
 }
 
 /* Custom Utilities for Smooth Scrolling and Custom Scrollbar */

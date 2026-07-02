@@ -46,7 +46,7 @@ export function Navbar() {
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
           isScrolled
             ? "bg-studio-card/85 backdrop-blur-md border-b border-studio-border/60 py-4"
-            : "bg-transparent py-6"
+            : "bg-gradient-to-b from-black/80 via-black/30 to-transparent py-6"
         )}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
@@ -55,11 +55,11 @@ export function Navbar() {
             <span className="font-serif text-xl md:text-2xl tracking-[0.15em] text-studio-heading font-semibold transition-colors duration-300">
               NSJ <span className="text-studio-accent font-light">STUDIO</span>
             </span>
-            <span className="text-[7px] uppercase tracking-[0.4em] text-studio-body/60 mt-0.5 leading-none transition-colors group-hover:text-studio-accent">
+            <span className="text-[7px] uppercase tracking-[0.4em] text-studio-body/80 mt-0.5 leading-none transition-colors group-hover:text-studio-accent">
               Architecture & Interiors
             </span>
           </Link>
-
+ 
           {/* Desktop Nav Links */}
           <nav className="hidden md:flex items-center space-x-10">
             {navLinks.map((link) => {
@@ -69,8 +69,8 @@ export function Navbar() {
                   key={link.name}
                   href={link.href}
                   className={cn(
-                    "text-xs uppercase tracking-widest transition-all duration-300 relative py-1 hover:text-studio-heading",
-                    isActive ? "text-studio-accent" : "text-studio-body/70"
+                    "text-xs uppercase tracking-widest transition-all duration-300 relative py-1 hover:text-white font-medium",
+                    isActive ? "text-studio-accent font-semibold" : "text-studio-heading/85"
                   )}
                 >
                   {link.name}

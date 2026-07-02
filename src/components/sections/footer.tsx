@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
@@ -19,81 +21,91 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-studio-bg border-t border-studio-border mt-auto font-sans">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 pb-16 border-b border-studio-border/55">
-          {/* Logo and Pitch */}
-          <div className="md:col-span-5 flex flex-col items-start">
-            <Link href="/" className="group flex flex-col mb-6">
-              <span className="font-serif text-2xl tracking-[0.15em] text-studio-heading font-semibold">
-                NSJ <span className="text-studio-accent font-light">STUDIO</span>
-              </span>
-              <span className="text-[7px] uppercase tracking-[0.4em] text-studio-body/60 mt-0.5 leading-none">
-                Architecture & Interiors
-              </span>
-            </Link>
-            <p className="text-sm text-studio-body/70 leading-relaxed max-w-sm">
-              An architectural practice based in Nagpur, designing timeless structures and interiors that balance modernist forms with vernacular materials and natural light.
-            </p>
-          </div>
+    <footer className="bg-[#0B0B0C] relative pt-24 pb-12 font-sans overflow-hidden">
+      {/* Curved top transition separating Contact from Footer */}
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-10">
+        <svg
+          className="relative block w-full h-[30px] md:h-[50px]"
+          viewBox="0 0 1440 100"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z" fill="#0B0B0C" stroke="#2A2A2C" strokeWidth="2" />
+        </svg>
+      </div>
 
-          {/* Quick Links */}
-          <div className="md:col-span-2 md:col-start-7 flex flex-col space-y-4">
-            <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-studio-heading">
-              Studio
-            </span>
-            <ul className="space-y-2">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-20">
+        {/* Main Columns */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 pb-16 border-b border-studio-border/55 items-start">
+          
+          {/* Left Column: Brand Label, Links */}
+          <div className="lg:col-span-7 flex flex-col justify-between">
+            <div>
+              <Link href="/" className="inline-block group mb-8">
+                <span className="font-sans text-5xl md:text-7xl font-extrabold tracking-tight text-studio-heading uppercase block transition-colors duration-300 group-hover:text-studio-accent">
+                  NSJ STUDIO
+                </span>
+                <span className="text-[9px] uppercase tracking-[0.45em] text-studio-body/60 mt-1 block pl-1">
+                  Architecture & Interior Design
+                </span>
+              </Link>
+            </div>
+            
+            {/* Horizontal Nav Links */}
+            <div className="flex flex-wrap gap-x-8 gap-y-3 mb-6">
               {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-xs text-studio-body/70 hover:text-studio-accent transition-colors duration-300"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="text-xs uppercase tracking-widest text-studio-body/75 hover:text-studio-accent transition-colors duration-300 font-medium"
+                >
+                  {link.name}
+                </Link>
               ))}
-            </ul>
-          </div>
+            </div>
 
-          {/* Social Links */}
-          <div className="md:col-span-2 flex flex-col space-y-4">
-            <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-studio-heading">
-              Connect
-            </span>
-            <ul className="space-y-2">
+            {/* Social Connect links */}
+            <div className="flex flex-wrap gap-x-6 gap-y-2 mt-2">
               {socialLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-studio-body/70 hover:text-studio-accent transition-colors duration-300 inline-flex items-center group"
-                  >
-                    {link.name}
-                    <ArrowUpRight size={10} className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  </a>
-                </li>
+                <a
+                  key={link.name}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] text-studio-body/50 hover:text-studio-accent transition-colors duration-300 inline-flex items-center group font-medium"
+                >
+                  {link.name}
+                </a>
               ))}
-            </ul>
+            </div>
           </div>
 
-          {/* Contact Details */}
-          <div className="md:col-span-2 flex flex-col space-y-4">
-            <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-studio-heading">
-              Nagpur Office
-            </span>
-            <p className="text-xs text-studio-body/70 leading-relaxed">
-              Civil Lines,
-              <br />
-              Nagpur, Maharashtra 440001
-            </p>
-            <p className="text-xs text-studio-body/70">
-              inquire@nsjstudio.in
-              <br />
-              +91 98765 43210
-            </p>
+          {/* Right Column: Newsletter */}
+          <div className="lg:col-span-5 flex flex-col justify-center">
+            <div className="flex flex-col space-y-4 max-w-md w-full lg:ml-auto">
+              <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-studio-accent block">
+                Newsletter
+              </span>
+              <h4 className="font-serif text-base md:text-lg text-studio-heading leading-snug font-light italic">
+                Sign up for updates on architectural commissions and design insights.
+              </h4>
+              <form className="flex flex-col sm:flex-row gap-3 w-full pt-2" onSubmit={(e) => e.preventDefault()}>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="bg-studio-card border border-studio-border text-xs rounded-full px-5 py-3.5 text-studio-heading placeholder:text-studio-body/30 focus:outline-none focus:border-studio-accent transition-all duration-300 w-full"
+                  required
+                />
+                <button
+                  type="submit"
+                  className="bg-white hover:bg-white/90 text-studio-bg font-bold text-xs tracking-wider uppercase px-7 py-3.5 rounded-full transition-all duration-300 shrink-0"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
           </div>
+
         </div>
 
         {/* Bottom Section */}

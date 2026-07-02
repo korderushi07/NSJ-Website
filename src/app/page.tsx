@@ -6,6 +6,7 @@ import { Services } from "@/components/sections/services";
 import { Projects } from "@/components/sections/projects";
 import { Process } from "@/components/sections/process";
 import { Founder } from "@/components/sections/founder";
+import { Testimonials } from "@/components/sections/testimonials";
 import { FAQ } from "@/components/sections/faq";
 import { Insights } from "@/components/sections/insights";
 import { ContactSection } from "@/components/sections/contact-section";
@@ -31,6 +32,7 @@ export default function Home() {
         <Projects />
         <Process />
         <Founder />
+        <Testimonials />
         <FAQ />
         <Insights />
         <ContactSection />

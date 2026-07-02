@@ -6,8 +6,8 @@ import { SectionHeader } from "@/components/ui/section-header";
 
 export function Introduction() {
   return (
-    <section id="intro" className="py-24 md:py-32 bg-studio-bg relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+    <section id="intro" className="py-24 pb-32 md:py-32 md:pb-44 bg-[#F5F3EF] relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           
           {/* Left Text Column */}
@@ -15,16 +15,17 @@ export function Introduction() {
             <SectionHeader
               caption="Studio Introduction"
               title="Honest materials. Timeless forms. Masterful light."
+              theme="light"
             />
             
-            <div className="space-y-6 text-studio-body/80 text-sm md:text-base leading-relaxed font-sans max-w-xl">
+            <div className="space-y-6 text-stone-700 text-sm md:text-base leading-relaxed font-sans max-w-xl">
               <p>
                 NSJ Studio is Nagpur’s premier architecture and interior design practice. We operate on the boundary where contemporary minimalism converges with traditional Indian craftsmanship. Every volume we outline is tailored to its local microclimate, using regional elements like vernacular jaali brick facades, central courtyards, and tactile local stone.
               </p>
               <p>
                 Our philosophy prioritizes the purity of construction. We believe architecture shouldn&apos;t compete with its surroundings, nor should the UI of a building mask its structure. We design residences that serve as serene sanctuaries and commercial spaces that invite focus and productivity.
               </p>
-              <p className="border-l border-studio-accent/40 pl-4 py-1 text-studio-heading italic font-serif">
+              <p className="border-l-2 border-studio-accent/70 pl-4 py-1 text-studio-bg italic font-serif">
                 &ldquo;We do not build to follow trends. We cultivate architectural spaces that will remain as relevant, resilient, and elegant a decade from now as they are today.&rdquo;
               </p>
             </div>
@@ -40,9 +41,9 @@ export function Introduction() {
               className="relative aspect-[3/4] w-full max-w-md mx-auto"
             >
               {/* Bronze outline frame background */}
-              <div className="absolute -inset-3 border border-studio-accent/20 z-0 translate-x-1 translate-y-1" />
+              <div className="absolute -inset-3 border border-studio-accent/30 z-0 translate-x-1 translate-y-1" />
               
-              <div className="relative w-full h-full overflow-hidden z-10 border border-studio-border">
+              <div className="relative w-full h-full overflow-hidden z-10 border border-stone-300">
                 <Image
                   src="/images/intro.png"
                   alt="Architectural Material Textures - NSJ Studio"
@@ -55,6 +56,18 @@ export function Introduction() {
           </div>
 
         </div>
+      </div>
+
+      {/* Bottom curved SVG divider transitioning to Services bg (#141416) */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
+        <svg
+          className="relative block w-full h-[40px] md:h-[60px]"
+          viewBox="0 0 1440 100"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#141416" />
+        </svg>
       </div>
     </section>
   );
