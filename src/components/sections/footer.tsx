@@ -45,8 +45,11 @@ export function Footer() {
                 <span className="font-sans text-5xl md:text-7xl font-extrabold tracking-tight text-studio-heading uppercase block transition-colors duration-300 group-hover:text-studio-accent">
                   NSJ STUDIO
                 </span>
-                <span className="text-[9px] uppercase tracking-[0.45em] text-studio-body/60 mt-1 block pl-1">
-                  Architecture & Interior Design
+                <span className="text-[10px] uppercase tracking-[0.15em] text-studio-body/75 mt-2 block pl-1">
+                  Architecture | Interior Design | Home Renovation
+                </span>
+                <span className="text-[9px] uppercase tracking-[0.3em] text-studio-accent mt-1 block pl-1 font-semibold">
+                  Nagpur, Maharashtra
                 </span>
               </Link>
             </div>
@@ -87,7 +90,7 @@ export function Footer() {
                 Newsletter
               </span>
               <h4 className="font-serif text-base md:text-lg text-studio-heading leading-snug font-light italic">
-                Sign up for updates on architectural commissions and design insights.
+                Sign up for updates on design ideas, home planning tips, and project news.
               </h4>
               <form className="flex flex-col sm:flex-row gap-3 w-full pt-2" onSubmit={(e) => e.preventDefault()}>
                 <input

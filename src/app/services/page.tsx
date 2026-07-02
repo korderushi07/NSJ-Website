@@ -4,9 +4,9 @@ import { Services } from "@/components/sections/services";
 import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
-  title: "Core Disciplines & Services",
+  title: "Our Architecture & Interior Design Services",
   description:
-    "Explore our core architecture, interior design, and turnkey construction management services tailored for residential and commercial spaces in Nagpur.",
+    "Explore our core architecture, interior design, and home renovation services tailored for residential and commercial spaces in Nagpur.",
   alternates: {
     canonical: "/services",
   },
@@ -24,7 +24,7 @@ export default function ServicesPage() {
               What We Do
             </span>
             <h1 className="text-4xl md:text-6xl font-serif font-light text-studio-heading leading-tight">
-              Our Disciplines
+              Our Services
             </h1>
           </div>
         </section>

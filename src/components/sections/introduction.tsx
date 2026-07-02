@@ -13,20 +13,20 @@ export function Introduction() {
           {/* Left Text Column */}
           <div className="lg:col-span-7 flex flex-col justify-center">
             <SectionHeader
-              caption="Studio Introduction"
-              title="Honest materials. Timeless forms. Masterful light."
+              caption="About Us"
+              title="About NSJ Studio"
               theme="light"
             />
             
             <div className="space-y-6 text-stone-700 text-sm md:text-base leading-relaxed font-sans max-w-xl">
-              <p>
-                NSJ Studio is Nagpur’s premier architecture and interior design practice. We operate on the boundary where contemporary minimalism converges with traditional Indian craftsmanship. Every volume we outline is tailored to its local microclimate, using regional elements like vernacular jaali brick facades, central courtyards, and tactile local stone.
+              <p className="text-base md:text-lg font-serif italic text-studio-bg font-light border-l-2 border-studio-accent/70 pl-4 py-1">
+                Designing spaces that are practical, timeless and tailored to the people who use them.
               </p>
               <p>
-                Our philosophy prioritizes the purity of construction. We believe architecture shouldn&apos;t compete with its surroundings, nor should the UI of a building mask its structure. We design residences that serve as serene sanctuaries and commercial spaces that invite focus and productivity.
+                Based in Nagpur, NSJ Studio is a professional architecture and interior design practice. We specialize in residential design, commercial workspaces, and complete home renovations. Our focus is on functional layout optimization, efficient space planning, and clear client collaboration.
               </p>
-              <p className="border-l-2 border-studio-accent/70 pl-4 py-1 text-studio-bg italic font-serif">
-                &ldquo;We do not build to follow trends. We cultivate architectural spaces that will remain as relevant, resilient, and elegant a decade from now as they are today.&rdquo;
+              <p>
+                Our team works closely with each client from initial concept drawings and 3D visualization to final on-site execution support, ensuring every home and office is built to deliver lasting value.
               </p>
             </div>
           </div>

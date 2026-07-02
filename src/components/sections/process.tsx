@@ -9,35 +9,35 @@ const steps = [
     phase: "Consultation",
     duration: "Week 1",
     description:
-      "We begin with a thorough briefing. We analyze your site parameters in Nagpur, clarify space requirements, discuss budget projections, and outline primary project goals.",
+      "We discuss your design requirements, budget expectations, and vision for the home or office space.",
   },
   {
     num: "02",
-    phase: "Concept Design",
-    duration: "Weeks 2-4",
+    phase: "Site Visit & Measurements",
+    duration: "Week 2",
     description:
-      "We generate structural zoning options, spatial layouts, bubble diagrams, and hand-sketched visions to outline the primary architectural forms and flow.",
+      "Our team visits the site to take detailed measurements and analyze space conditions for planning.",
   },
   {
     num: "03",
-    phase: "Schematic Design",
-    duration: "Weeks 5-8",
+    phase: "Concept Design",
+    duration: "Weeks 3-4",
     description:
-      "We transition into CAD layouts. We establish exact building dimensions, elevations, 3D renderings, material pairings, and local municipal compliance files.",
+      "We create initial layout options, furniture placement plans, and space allocation drawings.",
   },
   {
     num: "04",
     phase: "Design Development",
-    duration: "Weeks 9-12",
+    duration: "Weeks 5-8",
     description:
-      "We prepare complete working drawings. This stage coordinates plumbing, electrical, and structural systems, plus bespoke interior joinery drawings.",
+      "We develop detailed 3D designs, coordinate material lists, and prepare electrical and plumbing plans.",
   },
   {
     num: "05",
-    phase: "Site Execution",
+    phase: "Execution Support",
     duration: "Ongoing",
     description:
-      "For standard architecture, we run routine site quality audits. For turnkey contracts, our in-house civil teams construct and install everything through to key handover.",
+      "We provide site visits and coordination support to help contractors execute the design as planned.",
   },
 ];
 
@@ -46,9 +46,9 @@ export function Process() {
     <section id="process" className="py-24 md:py-32 bg-studio-card relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <SectionHeader
-          caption="Methodology"
-          title="Our structured design process."
-          description="A systematic phase-by-phase framework ensuring that your project transitions seamlessly from initial brief to final construction."
+          caption="Our Process"
+          title="How We Work"
+          description="A simple step-by-step design process to help you plan, visualize, and execute your project smoothly."
         />
 
         {/* Timeline Container */}

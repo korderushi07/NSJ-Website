@@ -37,8 +37,8 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <SectionHeader
             caption="Portfolio"
-            title="Selected architectural commissions."
-            description="A curated view of our recent spaces completed in Nagpur, exhibiting our focus on honest materials and spatial integrity."
+            title="Featured Projects"
+            description="Explore a selection of residential, commercial and renovation projects designed with attention to detail and functionality."
             className="mb-0!"
           />
           <Link href="/projects" className="mt-6 md:mt-0">

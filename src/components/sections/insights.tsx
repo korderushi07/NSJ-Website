@@ -12,34 +12,34 @@ const insights = [
     readTime: "5 min read",
     title: "Selecting climate-conscious materials for Central India.",
     excerpt:
-      "An analysis of thermal mass properties of locally sourced stone, clay brick jaalis, and lime plasters in tempering Nagpur's dry summer heat.",
+      "We examine how using regional stone, local brick layouts, and traditional wall plasters can help keep homes cool during Nagpur's dry summers.",
     image: "/images/insight-1.png",
     slug: "timeless-materials-nagpur",
   },
   {
     date: "May 14, 2026",
     readTime: "4 min read",
-    title: "The role of natural light in luxury residential design.",
+    title: "The role of natural light in residential design.",
     excerpt:
-      "How central courtyards, skylights, and deep overhangs act as architectural instruments to direct daylight throughout the day.",
+      "How planning courtyards, skylights, and window overhangs helps maximize natural daylight and reduces electricity consumption in homes.",
     image: "/images/insight-2.png",
     slug: "minimalist-lighting-design",
   },
   {
     date: "April 02, 2026",
     readTime: "7 min read",
-    title: "Understanding turnkey delivery in private residential builds.",
+    title: "Understanding turnkey execution for home building.",
     excerpt:
-      "Demystifying the design-build project model. How centralizing design and structural teams under one agency prevents cost overruns.",
+      "A simple guide to the design-and-build model. Learn how having architecture and interior design managed by one team prevents budget overruns.",
     image: "/images/insight-3.png",
     slug: "importance-of-turnkey",
   },
   {
     date: "March 18, 2026",
     readTime: "6 min read",
-    title: "Integrating vernacular courtyard cooling systems.",
+    title: "How courtyards keep homes cool in Nagpur's summer.",
     excerpt:
-      "Exploring how traditional Indian microclimatic courtyards can be modernized to promote passive ventilation and solar harmony in Vidarbha.",
+      "Exploring how traditional central courtyards can be integrated into modern houses to promote natural cooling and ventilation in Vidarbha.",
     image: "/images/insight-4.png",
     slug: "vernacular-courtyard-cooling",
   },
@@ -50,9 +50,9 @@ export function Insights() {
     <section id="insights" className="py-24 pb-32 md:py-32 md:pb-44 bg-[#F5F3EF] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <SectionHeader
-          caption="Journal"
-          title="Insights on architecture and design."
-          description="Read our essays on construction methodology, materials research, and layout planning in Nagpur."
+          caption="Blog"
+          title="Design Insights"
+          description="Practical ideas, design inspiration and expert guidance for homeowners and businesses."
           theme="light"
         />
 

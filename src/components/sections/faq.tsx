@@ -10,29 +10,29 @@ import {
 
 const faqs = [
   {
-    question: "What service areas does NSJ Studio cover?",
+    question: "Do you provide home renovation services?",
     answer:
-      "NSJ Studio is based in Nagpur and primarily services commissions within the city and surrounding Vidarbha region. We are fully equipped to handle projects both remotely and through site-visit intervals across Maharashtra depending on the scale.",
+      "Yes, we provide complete home renovation services in Nagpur. This includes modular kitchen design, bathroom remodeling, structural modifications, electrical, plumbing, painting, and flooring upgrades.",
   },
   {
-    question: "How long does a typical architectural design phase take?",
+    question: "Do you design residential and commercial spaces?",
     answer:
-      "A standard residential or commercial design phase ranges between 8 to 16 weeks. This includes the initial conceptual zoning, schematic design layout drafts, 3D visualizations, material schedules, and working blueprints ready for site mobilization.",
+      "Yes, we design both residential spaces (such as bungalows, duplex homes, and apartments) and commercial spaces (including corporate offices, retail showrooms, clinics, and workspaces).",
   },
   {
-    question: "What is the difference between standard architecture and turnkey execution?",
+    question: "Can I hire you only for interior design?",
     answer:
-      "Standard architectural services include layout planning, blueprint preparation, and structural audits during construction. Turnkey execution is a design-build model where NSJ Studio manages everything: structural excavation, material sourcing, on-site labor coordination, interior fit-outs, and quality controls under one contract.",
+      "Yes, you can hire us exclusively for interior design services. We handle layout planning, custom modular cabinetry, furniture design, color coordination, and material selection.",
   },
   {
-    question: "Does NSJ Studio assist with local building sanctions and municipal approvals in Nagpur?",
+    question: "Do you provide 3D design before execution?",
     answer:
-      "Yes. We coordinate the submission plans, liaison documentation, and required drawings for approvals from the Nagpur Municipal Corporation (NMC), Nagpur Improvement Trust (NIT), and other local regulatory authorites as part of our schematic design phase.",
+      "Yes. We create detailed 3D visualization renders before starting any work on-site. This allows you to review and confirm the space layout, furniture dimensions, colors, and lighting beforehand.",
   },
   {
-    question: "How do we initiate a project consultation?",
+    question: "Do you work outside Nagpur?",
     answer:
-      "You can submit an inquiry through our contact form or book a consultation online. We schedule a brief call to align on your site size, structural requirements, budget limits, and project schedule before organizing an in-person meeting at our studio.",
+      "Our office is based in Nagpur, and we primarily work on projects here and across the Vidarbha region. For larger residential and commercial projects, we are happy to travel and collaborate across Maharashtra.",
   },
 ];
 
@@ -41,8 +41,8 @@ export function FAQ() {
     <section id="faq" className="py-24 pb-32 md:py-32 md:pb-44 bg-studio-card relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <SectionHeader
-          caption="Information"
-          title="Frequently asked questions."
+          caption="FAQ"
+          title="Common Questions"
           align="center"
           className="mb-12 md:mb-16"
         />

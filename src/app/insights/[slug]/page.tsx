@@ -21,38 +21,51 @@ const essaysData: Record<string, EssayDetail> = {
     date: "June 28, 2026",
     readTime: "5 min read",
     category: "Materials Science",
-    excerpt: "An analysis of thermal mass properties of locally sourced stone, clay brick jaalis, and lime plasters in tempering Nagpur's dry summer heat.",
+    excerpt: "We examine how using regional stone, local brick layouts, and traditional wall plasters can help keep homes cool during Nagpur's dry summers.",
     paragraphs: [
       "Nagpur experiences some of the most dramatic seasonal temperature swings in Maharashtra, with summer temperatures regularly peaking beyond 45°C. Traditional modern architecture has relied heavily on active mechanical cooling (air conditioning), which imposes heavy energy loads and ignores local atmospheric dynamics. At NSJ Studio, we believe that material selection should serve as the primary defensive shield against climate exposure.",
       "The first material layer we analyze is structural masonry. Traditional concrete slabs absorb thermal energy and radiate it inwards. By implementing double-layered brick walls interspersed with geometric jaali patterns, we generate pockets of turbulent airflow. The jaali operates as a physical venturi—forcing air through small openings to reduce wind speed, block direct sunlight, and filter the ambient light entering courtyards.",
-      "Additionally, we prioritize local basalt stone. Sourced from queries within Vidarbha, basalt has high thermal mass density. Combined with internal lime plasters (which are breathable and chemically release moisture), the structure maintains cooler interior conditions during daylight hours and slowly discharges the heat during the cooler night cycles.",
+      "Additionally, we prioritize local basalt stone. Sourced from quarries within Vidarbha, basalt has high thermal mass density. Combined with internal lime plasters (which are breathable and chemically release moisture), the structure maintains cooler interior conditions during daylight hours and slowly discharges the heat during the cooler night cycles.",
       "Designing for Central India is not about sealing spaces inside glass boxes. It is about detailing breathable facades, placing deep shaded overhangs, and utilizing locally verified materials that have proven their durability over centuries."
     ]
   },
   "minimalist-lighting-design": {
-    title: "The role of natural light in luxury residential design.",
+    title: "The role of natural light in residential design.",
     date: "May 14, 2026",
     readTime: "4 min read",
     category: "Daylight Systems",
-    excerpt: "How central courtyards, skylights, and deep overhangs act as architectural instruments to direct changing daylight throughout the day.",
+    excerpt: "How planning courtyards, skylights, and window overhangs helps maximize natural daylight and reduces electricity consumption in homes.",
     paragraphs: [
       "Natural daylight is not a static decorative accent—it is a core structural element. In minimalist residential architecture, how light enters a volume dictates its emotional character, visual depth, and spatial scale. Our designs avoid placing large unshaded openings that create excessive heat glare, choosing instead to filter and direct light deliberately.",
       "One of the primary devices we utilize is the central atrium or courtyard. In traditional Indian homes (wadas), the courtyard acted as the center of social interaction and ventilation. In a contemporary villa, this double-height courtyard directs ambient skylight into the core of the building. Placing high-level skylights directly above masonry walls allows light to slide down raw textured surfaces, creating changing shadows over the course of the day.",
       "Furthermore, we utilize deep architectural overhangs (chajjas) and louvers. Teakwood louvers, positioned on western and southern facades, split direct sun rays into dynamic light patterns. This filters high-intensity glare while providing internal spaces with indirect daylight suitable for reading and focus.",
-      "Ultimately, premium lighting design is about control. By sculpting shadows and defining light pathways, we create residential spaces that feel peaceful, connected to nature, and in harmony with the day's progression."
+      "Ultimately, lighting design is about control. By sculpting shadows and defining light pathways, we create residential spaces that feel peaceful, connected to nature, and in harmony with the day's progression."
     ]
   },
   "importance-of-turnkey": {
-    title: "Understanding turnkey delivery in private residential builds.",
+    title: "Understanding turnkey execution for home building.",
     date: "April 02, 2026",
     readTime: "7 min read",
     category: "Execution",
-    excerpt: "Demystifying the design-build project model. How centralizing design and structural teams under one agency prevents cost overruns.",
+    excerpt: "A simple guide to the design-and-build model. Learn how having architecture and interior design managed by one team prevents budget overruns.",
     paragraphs: [
-      "Constructing a high-end custom residence is a complex operational task. Traditionally, clients engage an architect for layout sketches, a structural consultant for concrete details, and separate contractors for brickwork, plumbing, and interior finishings. This fragmented model frequently results in miscommunication, structural inconsistencies, and significant budget overruns.",
-      "Turnkey execution, or unified design-build delivery, consolidates all project phases under a single point of responsibility. At NSJ Studio, our turnkey contracts ensure that the design approved on paper matches the physical construction on site. Our in-house designers, structural engineers, and site supervisors work as a single team.",
-      "The primary advantage of turnkey delivery is material and budget alignment. During the schematic design phase, we create a detailed bill of quantities (BOQ) with fixed costs. Because we source raw stones, bespoke veneers, and specialized fixtures directly from verified manufacturers, we prevent unexpected material markups and delays.",
-      "By eliminating the conflict between architects who draw complex shapes and contractors who struggle to build them, turnkey delivery streamlines the construction process. It provides peace of mind, consistent detailing, and a home delivered precisely as visualized."
+      "Constructing a custom residence is a complex operational task. Traditionally, clients engage an architect for layout sketches, a structural consultant for concrete details, and separate contractors for brickwork, plumbing, and interior finishings. This fragmented model frequently results in miscommunication, structural inconsistencies, and significant budget overruns.",
+      "Turnkey execution, or unified design-build delivery, consolidates all project phases under a single point of responsibility. At NSJ Studio, our turnkey contracts ensure that the design approved on paper matches the physical execution on site. Our in-house designers, structural engineers, and site supervisors work as a single team.",
+      "The primary advantage of turnkey execution is material and budget alignment. During the design phase, we create a detailed bill of quantities (BOQ) with fixed costs. Because we source raw stones, premium veneers, and specialized fixtures directly from verified manufacturers, we prevent unexpected material markups and delays.",
+      "By eliminating the conflict between architects who draw complex shapes and contractors who struggle to build them, turnkey execution streamlines the construction process. It provides peace of mind, consistent detailing, and a home delivered precisely as visualized."
+    ]
+  },
+  "vernacular-courtyard-cooling": {
+    title: "How courtyards keep homes cool in Nagpur's summer.",
+    date: "March 18, 2026",
+    readTime: "6 min read",
+    category: "Passive Cooling",
+    excerpt: "Exploring how traditional central courtyards can be integrated into modern houses to promote natural cooling and ventilation in Vidarbha.",
+    paragraphs: [
+      "Courtyards have been a fundamental element of Indian architecture for centuries. In regions like Vidarbha, where summer temperatures are high, a central courtyard acts as a thermal regulator. By introducing an open sky area inside the house, we create a natural convective loop that draws hot air upward and pulls cooler air from the surrounding rooms.",
+      "In modern home design, we can adapt this traditional concept to suit contemporary lifestyles. By placing high-level ventilators, double-height ceilings, and green planters within the courtyard, we create a lively center that acts as the physical and visual heart of the home.",
+      "Additionally, we use local terracotta screens and water elements near the courtyard openings. This helps cool the incoming breeze through evaporation, lowering internal temperatures naturally without relying entirely on mechanical air conditioning.",
+      "Integrating a courtyard into your residential design is not just a stylistic choice. It is a highly practical solution to promote natural ventilation, bring indirect daylight into every room, and create a calm family sanctuary."
     ]
   }
 };

@@ -29,9 +29,9 @@ const allProjects = [
 ];
 
 export const metadata: Metadata = {
-  title: "Architectural Commissions & Selected Works",
+  title: "Architecture & Interior Design Projects | Selected Works",
   description:
-    "Explore NSJ Studio's completed high-end residential duplex villas and corporate offices across Nagpur. Timeless designs marrying stone, brick, and daylight.",
+    "Explore NSJ Studio's completed residential design, home renovation, and commercial office interior projects in Nagpur.",
   alternates: {
     canonical: "/projects",
   },

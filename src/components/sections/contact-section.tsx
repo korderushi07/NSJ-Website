@@ -77,9 +77,9 @@ export function ContactSection() {
           <div className="lg:col-span-5 flex flex-col justify-between space-y-12">
             <div>
               <SectionHeader
-                caption="Inquire"
-                title="Begin your architectural commission."
-                description="We take on a limited number of commissions each year to maintain design quality. Connect with us to discuss your layout requirements in Nagpur."
+                caption="Contact Us"
+                title="Let's Discuss Your Project"
+                description="Whether you're planning a new home, renovating an apartment or designing a workspace, we'd love to hear about your vision."
               />
 
               {/* Contact Credentials */}
@@ -302,11 +302,11 @@ export function ContactSection() {
                     {isSubmitting ? (
                       <>
                         <Loader2 className="w-4 h-4 animate-spin text-studio-bg" />
-                        Validating Inquiry...
+                        Scheduling...
                       </>
                     ) : (
                       <>
-                        Send Inquiry
+                        Schedule a Consultation
                         <Send className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                       </>
                     )}

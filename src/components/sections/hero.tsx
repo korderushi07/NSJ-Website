@@ -42,7 +42,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl sm:text-5xl md:text-7xl font-sans font-extrabold text-studio-heading leading-[1.1] mb-6 tracking-tight uppercase max-w-5xl"
           >
-            EXPERIENCE ENDURING SPACES WITH NSJ STUDIO
+            Architecture & Interior Design for Modern Homes and Workspaces
           </motion.h1>
 
           <motion.p
@@ -51,7 +51,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="text-base md:text-xl text-studio-body/90 leading-relaxed mb-10 max-w-3xl font-serif font-light italic"
           >
-            Designing structures and interiors that stand the test of time, pairing modernist forms with Central India&apos;s climate.
+            NSJ Studio creates thoughtful residential, commercial and renovation spaces that combine functionality, aesthetics and lasting value.
           </motion.p>
 
           <motion.div
@@ -60,14 +60,23 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Link href="/projects">
+            <Link href="/contact">
               <Button
                 variant="primary"
                 size="lg"
                 className="group rounded-full bg-white text-studio-bg hover:bg-white/90 border-0 px-8 py-4 font-semibold flex items-center justify-center gap-2 shadow-lg"
               >
-                Explore Our Commissions
+                Book a Consultation
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1 text-studio-bg" />
+              </Button>
+            </Link>
+            <Link href="/projects">
+              <Button
+                variant="secondary"
+                size="lg"
+                className="rounded-full border border-studio-border text-studio-heading hover:border-white hover:bg-white/10 px-8 py-4 font-semibold"
+              >
+                View Projects
               </Button>
             </Link>
           </motion.div>

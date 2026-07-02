@@ -2,54 +2,63 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, Landmark, Home, Briefcase, Key, Compass } from "lucide-react";
+import { ArrowRight, Landmark, Home, Briefcase, Key, Compass, LayoutGrid, Eye } from "lucide-react";
 import { SectionHeader } from "@/components/ui/section-header";
 
 const services = [
   {
     num: "01",
-    title: "Architecture",
+    title: "Residential Architecture",
     description:
-      "Comprehensive architectural planning, structural detailing, and site layouts. We design landmark forms that respect local site context, solar paths, and natural wind drafts.",
-    icon: Landmark,
-    details: ["Site Analysis & Zoning", "Concept & Structural Planning", "3D Visualization", "Liaison & Approvals"],
-    slug: "architecture",
+      "Custom architectural planning for bungalows, duplex villas, and apartments. We design functional layouts optimized for ventilation, space utility, and natural daylight.",
+    icon: Home,
+    details: ["Villa & Bungalow Design", "Apartment Layout Planning", "Architectural Blueprints", "Nagpur Municipal Approvals"],
+    slug: "residential-architecture",
   },
   {
     num: "02",
     title: "Interior Design",
     description:
-      "Bespoke interior architecture, material scheduling, and custom furniture curation. We create highly detailed, sensory spaces with muted tones and premium finishes.",
+      "Elegant interior design solutions tailored to your daily routine. We coordinate color schemes, customized wood layouts, material selections, and lighting plans.",
     icon: Compass,
-    details: ["Space Planning & Layouts", "Bespoke Joinery & Details", "Lighting & Acoustic Design", "Material & FF&E Curation"],
+    details: ["Living Room & Bedroom Interiors", "Modular Kitchen Layouts", "Custom Wardrobes & Joinery", "Lighting & Ceiling Layouts"],
     slug: "interior-design",
   },
   {
     num: "03",
-    title: "Residential Architecture",
+    title: "Home Renovation",
     description:
-      "High-end private villas, multi-family residences, and penthouses. Designed as personal sanctuaries that reflect Nagpur's regional aesthetics and modern comfort.",
-    icon: Home,
-    details: ["Luxury Duplex Villas", "Modern Farmhouses", "Premium Penthouse Layouts", "Renovation & Extensions"],
-    slug: "residential-architecture",
+      "Transform your current property into a modern living space. We undertake structural modifications, bathroom remodeling, kitchen upgrades, and complete flat makeovers.",
+    icon: Key,
+    details: ["Complete Flat Makeovers", "Modular Kitchen Upgrades", "Bathroom Remodeling", "Flooring & Painting Work"],
+    slug: "home-renovation",
   },
   {
     num: "04",
-    title: "Commercial Workspaces",
+    title: "Office Interior Design",
     description:
-      "Premium corporate offices, collaborative workspaces, and retail showrooms. Designed to optimize workflow, build brand trust, and improve team well-being.",
+      "Efficient and professional workspaces designed to improve collaboration and productivity. We design layout options for cabins, workstations, and reception desks.",
     icon: Briefcase,
-    details: ["Corporate Headquarters", "Co-working Layouts", "Boutique Retail Galleries", "Hospitality Interiors"],
+    details: ["Corporate Workstation Layouts", "Executive Cabins & Reception", "Conference Room Layouts", "Retail Showroom Interiors"],
     slug: "commercial-spaces",
   },
   {
     num: "05",
-    title: "Turnkey Execution",
+    title: "Space Planning",
     description:
-      "Seamless design-build services. We manage the entire project life cycle—from blueprint generation and civil excavation to custom detailing and final handover.",
-    icon: Key,
-    details: ["End-to-End Project Management", "Civil & Structural Execution", "Quality Audits & Cost Control", "Final Styling & Handover"],
-    slug: "turnkey-execution",
+      "Smart zoning maps and flow plans that maximize the functionality of every square foot in your residential apartment or commercial office.",
+    icon: LayoutGrid,
+    details: ["Floor Plan Optimization", "Furniture Placement Plans", "Smart Storage Curation", "Zoning & Circulation Analysis"],
+    slug: "space-planning",
+  },
+  {
+    num: "06",
+    title: "3D Design & Visualization",
+    description:
+      "Visualize your home or office before the actual construction begins. We offer high-fidelity 3D renders, walkthroughs, and material preview boards.",
+    icon: Eye,
+    details: ["High-Fidelity 3D Renders", "Interior & Exterior 3D Views", "Material & Color Previews", "Virtual Walkthroughs"],
+    slug: "3d-visualization",
   },
 ];
 
@@ -58,9 +67,9 @@ export function Services() {
     <section id="services" className="py-24 md:py-32 bg-studio-card relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <SectionHeader
-          caption="Expertise"
-          title="Architectural disciplines shaped around luxury."
-          description="We deliver a unified process from initial sketch to final furniture installation, ensuring structural integrity and refined spatial flow."
+          caption="Our Services"
+          title="Our Architecture & Interior Design Services"
+          description="From residential architecture to complete home and office renovations, we design spaces that reflect your lifestyle, business and vision."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -85,7 +94,7 @@ export function Services() {
                   </div>
 
                   {/* Title & Description */}
-                  <h3 className="text-xl md:text-2xl font-serif font-light text-studio-heading mb-4 group-hover:text-studio-accent transition-colors duration-300">
+                  <h3 className="text-xl md:text-2xl font-sans font-bold text-studio-heading mb-4 group-hover:text-studio-accent transition-colors duration-300">
                     {service.title}
                   </h3>
                   <p className="text-xs md:text-sm text-studio-body/70 leading-relaxed mb-6 font-sans">

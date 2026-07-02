@@ -40,7 +40,7 @@ const projectsData: Record<string, ProjectDetail> = {
     features: [
       "Double-height light courtyard",
       "Passive solar layout orientation",
-      "Bespoke modular kitchen integration",
+      "Custom modular kitchen integration",
       "Rainwater harvesting systems"
     ]
   },
@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${project.title} | ${project.location}`,
-    description: `Case study of NSJ Studio's ${project.title} commission in ${project.location}. Completed in ${project.year}. Scale: ${project.scale}.`,
+    description: `Case study of NSJ Studio's ${project.title} project in ${project.location}. Completed in ${project.year}. Scale: ${project.scale}.`,
     alternates: {
       canonical: `/projects/${slug}`,
     },
@@ -151,7 +151,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             </Link>
             
             <span className="text-[10px] uppercase tracking-[0.25em] text-studio-accent font-semibold block mb-2">
-              Completed Commission
+              Completed Project
             </span>
             <h1 className="text-4xl md:text-6xl font-serif font-light text-studio-heading leading-tight mb-2">
               {project.title}
@@ -238,7 +238,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
 
                   <div>
                     <span className="text-[10px] uppercase tracking-widest text-studio-body/50 block">
-                      Commission Scale
+                      Project Scale
                     </span>
                     <span className="text-xs font-semibold text-studio-heading flex items-center mt-1">
                       <Compass size={12} className="mr-1 text-studio-accent" />

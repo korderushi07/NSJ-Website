@@ -8,14 +8,14 @@ import { SectionHeader } from "@/components/ui/section-header";
 const testimonials = [
   {
     quote:
-      "The fusion of climate-conscious jaali brick screens with clean, modern lines completely transformed our space. NSJ Studio designed a home that remains incredibly cool in Nagpur's summers while maintaining a high-end luxury feel.",
+      "The space planning and modular kitchen layout they designed completely transformed our home. NSJ Studio created a space that is highly functional, bright, and matches our family's lifestyle.",
     clientName: "Vikram Singhania",
     location: "Residential Client, Ramdaspeth",
     avatar: "/images/avatar-1.png",
   },
   {
     quote:
-      "Their turnkey execution took away all the hassle of coordinating between contractors. The corporate workspace in Civil Lines is a masterpiece of light, spatial economy, and honest local materials.",
+      "Their execution support and attention to detail saved us time and cost. The new office interior design in Civil Lines is clean, practical, and has significantly improved our team's daily productivity.",
     clientName: "Dr. Meera Deshmukh",
     location: "Commercial Client, Civil Lines",
     avatar: "/images/avatar-2.png",
@@ -42,13 +42,13 @@ export function Testimonials() {
           <div className="lg:col-span-5 flex flex-col justify-between h-full min-h-[220px]">
             <div>
               <SectionHeader
-                caption="Endorsements"
-                title="What Our Clients Say About Us"
+                caption="Reviews"
+                title="What Our Clients Say"
                 theme="light"
                 className="mb-6!"
               />
               <p className="text-stone-600 text-sm md:text-base leading-relaxed font-sans max-w-md">
-                Discover how we turn visions into enduring structural realities, maintaining design rigor and seamless execution in Nagpur.
+                Discover how we help families and businesses in Nagpur build spaces that are functional, elegant, and designed to meet their everyday needs.
               </p>
             </div>
 

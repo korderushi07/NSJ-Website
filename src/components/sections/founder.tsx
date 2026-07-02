@@ -37,17 +37,17 @@ export function Founder() {
           {/* Right Column - Manifesto and Details */}
           <div className="lg:col-span-7 flex flex-col justify-center">
             <SectionHeader
-              caption="Leadership"
-              title="Design with intent."
-              description="NSJ Studio is steered by a commitment to architectural rigor, spatial economy, and vernacular fusion."
+              caption="Our Team"
+              title="Meet the Architect"
+              description="Every project at NSJ Studio is personally guided to create spaces that are functional, elegant and built around each client's requirements."
             />
             
             <div className="space-y-6 text-studio-body/80 text-sm md:text-base leading-relaxed font-sans max-w-2xl">
               <p>
-                Established with a vision to redefine the architectural landscape of Nagpur, NSJ Studio operates on the principles of honest construction and client alignment. We design spaces that function seamlessly, utilizing the local Maharashtra microclimate to structure passive heating and ventilation solutions.
+                We believe that good design should be functional, practical, and tailored to the people who use the space. Whether we are designing a new duplex home, planning an office renovation, or optimizing layouts, we focus on maximizing space utility, lighting, and air circulation.
               </p>
               <p>
-                Our lead architect and founder oversees all major project phases—from initial schematic layout sketches to local Nagpur municipal filings, turnkey cost-management audits, and the final structural inspection checklist.
+                Our lead architect personally oversees every stage of the design process. From initial space planning layouts and detailed 3D designs to contractor coordination and site visits, we ensure that the execution matches your vision and budget.
               </p>
               
               {/* Founder Signoff Block */}

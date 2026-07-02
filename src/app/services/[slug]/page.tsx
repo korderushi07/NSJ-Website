@@ -34,19 +34,19 @@ const servicesData: Record<string, ServiceData> = {
   },
   "interior-design": {
     title: "Interior Design",
-    subtitle: "Bespoke spatial design with tactile materials.",
-    description: "We create serene interior environments characterized by clean lines, warm lighting profiles, raw material pairing, and highly custom joinery details. We design environments that feel calm, sophisticated, and unified.",
+    subtitle: "Custom spatial design with natural materials.",
+    description: "We create serene interior environments characterized by clean lines, warm lighting profiles, raw material pairing, and custom woodwork details. We design environments that feel calm, sophisticated, and unified.",
     scope: [
       "Detailed spatial layout and furniture placement planning",
-      "Bespoke kitchen, wardrobe, and vanity joinery designs",
+      "Custom kitchen, wardrobe, and vanity carpentry designs",
       "Luminance Lux calculations and electrical scheduling",
       "Custom surface treatment and veneer selections"
     ],
     deliverables: [
-      "Mood boards and material pair palettes",
-      "Sectional elevations & joinery shop drawings",
+      "Mood boards and material palettes",
+      "Sectional elevations & custom woodwork drawings",
       "Lighting fixture lists and wiring routing blueprints",
-      "Loose furniture curation and layout specifications"
+      "Loose furniture layouts and specifications"
     ]
   },
   "residential-architecture": {
@@ -54,7 +54,7 @@ const servicesData: Record<string, ServiceData> = {
     subtitle: "Creating private residential sanctuaries in Nagpur.",
     description: "Custom residential architecture designed around your family's routine. From high-end duplex villas in Ramdaspeth to modern eco-sensitive farmhouses, we balance contemporary open layouts with traditional central courtyards.",
     scope: [
-      "Bespoke single-family villa configurations",
+      "Custom single-family villa configurations",
       "Central courtyard and green ventilation designs",
       "Indoor-outdoor transition layout planning",
       "High-end penthouse interior integrations"
@@ -98,6 +98,57 @@ const servicesData: Record<string, ServiceData> = {
       "Phased construction scheduling (Gantt chart)",
       "On-site supervisor reports & quality check audits",
       "Final keys and occupancy checklist handover"
+    ]
+  },
+  "home-renovation": {
+    title: "Home Renovation",
+    subtitle: "Complete home and flat makeover services.",
+    description: "Transform your current property into a highly functional, modern home. We handle everything from structural changes and wall removal to modern modular kitchens, bathroom upgrades, premium flooring, and complete electrical rewiring.",
+    scope: [
+      "Structural checks and layout modifications",
+      "Modular kitchen planning and installation",
+      "Bathroom layout planning and plumbing updates",
+      "Flooring, wall treatments, and complete painting"
+    ],
+    deliverables: [
+      "Before & after layout plans",
+      "Material specifications (flooring, tiles, paint)",
+      "Electrical layout and lighting plans",
+      "Custom woodwork & modular utility details"
+    ]
+  },
+  "space-planning": {
+    title: "Space Planning",
+    subtitle: "Detailed layout optimization for maximum utility.",
+    description: "Maximize the usage of every corner in your home or commercial office. We create detailed zoning schemes, circulation flow maps, and furniture layout plans tailored specifically to your daily activities and spatial limits.",
+    scope: [
+      "Zoning analysis for rooms and work areas",
+      "Circulation flow maps for easy movement",
+      "Furniture layout planning and options",
+      "Storage space optimization plans"
+    ],
+    deliverables: [
+      "Optimized 2D floor plans",
+      "Zoned area layout schemes",
+      "Furniture dimensions & placement plans",
+      "Storage allocation drawings"
+    ]
+  },
+  "3d-visualization": {
+    title: "3D Design & Visualization",
+    subtitle: "Visualize your space before execution begins.",
+    description: "Make confident layout and material choices with our high-fidelity 3D renderings and design previews. We show you exactly how different color palettes, wood veneers, paint shades, and lighting schemes look in your actual space.",
+    scope: [
+      "High-resolution 3D interior design rendering",
+      "3D exterior building elevations",
+      "Material, texture, and color combinations previews",
+      "Virtual space walkthrough animations"
+    ],
+    deliverables: [
+      "3D interior rendering views (multiple angles)",
+      "3D exterior elevation renders",
+      "Material board & color code specifications",
+      "Virtual walkthrough video render files"
     ]
   }
 };
