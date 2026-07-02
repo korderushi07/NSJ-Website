@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+
+  --color-studio-bg: #0B0B0C;
+  --color-studio-card: #141416;
+  --color-studio-heading: #F5F3EF;
+  --color-studio-body: #B8B5AF;
+  --color-studio-accent: #A07D54;
+  --color-studio-border: #2A2A2C;
+}
+
+/* Custom Base Styles */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-studio-bg);
+  color: var(--color-studio-body);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-studio-heading);
+  font-family: var(--font-serif);
+}
+
+/* Custom Utilities for Smooth Scrolling and Custom Scrollbar */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-studio-bg);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-studio-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-studio-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-studio-accent);
+}
+
+/* Text selections matching the dark luxury theme */
+::selection {
+  background-color: var(--color-studio-accent);
+  color: var(--color-studio-bg);
 }
