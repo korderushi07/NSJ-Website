@@ -39,9 +39,19 @@ export function Founder() {
             <SectionHeader
               caption="Our Team"
               title="Meet the Architect"
-              description="Every project at NSJ Architects and Designers is personally guided by Ar. Nikita Sandesh Jumle to create functional, thoughtful, and compliant spaces."
+              className="mb-8"
             />
             
+            {/* Founder Designation Block */}
+            <div className="mb-8 font-sans">
+              <span className="font-serif text-xl text-studio-heading block">
+                Ar. Nikita Sandesh Jumle
+              </span>
+              <span className="text-[10px] uppercase tracking-widest text-studio-accent font-semibold block mt-1.5">
+                Founder & Principal Architect, NSJ Architects and Designers
+              </span>
+            </div>
+
             <div className="space-y-6 text-studio-body/80 text-sm md:text-base leading-relaxed font-sans max-w-2xl">
               <p>
                 Ar. Nikita Sandesh Jumle is the founder and lead architect of NSJ Architects and Designers. Sourcing inspiration from her artistic background, she combines creative spatial vision with rigorous technical planning. She graduated as a Top 10 Rank Holder with a Bachelor of Architecture from Smt. Manoramabai Mundle College of Architecture, RTM Nagpur University (Batch of 2025).
@@ -49,16 +59,6 @@ export function Founder() {
               <p>
                 Her diverse professional background spans residential, commercial, and institutional projects, including contributions to government infrastructure such as Panchayat Samiti buildings, District Courts, and PWD Rest Houses. Certified in Autodesk Revit Architecture (BIM), she utilizes detailed digital modeling to ensure structural precision and services coordination across all project phases.
               </p>
-              
-              {/* Founder Signoff Block */}
-              <div className="border-t border-studio-border/60 pt-6 mt-8">
-                <span className="font-serif text-lg text-studio-heading block">
-                  Ar. Nikita Sandesh Jumle
-                </span>
-                <span className="text-[10px] uppercase tracking-widest text-studio-accent font-semibold block mt-1">
-                  Founder & Principal Architect, NSJ Architects and Designers
-                </span>
-              </div>
             </div>
           </div>
 
