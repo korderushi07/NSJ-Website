@@ -24,7 +24,7 @@ export function Founder() {
               
               <div className="relative w-full h-full overflow-hidden z-10 border border-studio-border">
                 <Image
-                  src="/images/founder.png"
+                  src="/images/founder.jpg"
                   alt="Principal Architect & Founder - Ar. Nikita Sandesh Jumle"
                   fill
                   sizes="(max-w-768px) 100vw, 350px"
