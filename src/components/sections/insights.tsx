@@ -8,40 +8,40 @@ import { SectionHeader } from "@/components/ui/section-header";
 
 const insights = [
   {
-    date: "June 28, 2026",
+    date: "July 05, 2026",
     readTime: "5 min read",
-    title: "Selecting climate-conscious materials for Central India.",
+    title: "Things to Consider Before Renovating Your Home",
     excerpt:
-      "We examine how using regional stone, local brick layouts, and traditional wall plasters can help keep homes cool during Nagpur's dry summers.",
+      "A practical guide to planning a renovation, covering budget allocation, structural checkups, space utilization, and material timelines.",
     image: "/images/insight-1.png",
-    slug: "timeless-materials-nagpur",
+    slug: "things-to-consider-before-renovating-home",
   },
   {
-    date: "May 14, 2026",
+    date: "June 20, 2026",
     readTime: "4 min read",
-    title: "The role of natural light in residential design.",
+    title: "How Good Space Planning Improves Everyday Living",
     excerpt:
-      "How planning courtyards, skylights, and window overhangs helps maximize natural daylight and reduces electricity consumption in homes.",
+      "Exploring how layout optimization, circulation paths, and natural light enhance the functionality and comfort of modern homes.",
     image: "/images/insight-2.png",
-    slug: "minimalist-lighting-design",
+    slug: "how-good-space-planning-improves-living",
   },
   {
-    date: "April 02, 2026",
-    readTime: "7 min read",
-    title: "Understanding turnkey execution for home building.",
-    excerpt:
-      "A simple guide to the design-and-build model. Learn how having architecture and interior design managed by one team prevents budget overruns.",
-    image: "/images/insight-3.png",
-    slug: "importance-of-turnkey",
-  },
-  {
-    date: "March 18, 2026",
+    date: "May 25, 2026",
     readTime: "6 min read",
-    title: "How courtyards keep homes cool in Nagpur's summer.",
+    title: "Architecture vs Interior Design: Understanding the Difference",
     excerpt:
-      "Exploring how traditional central courtyards can be integrated into modern houses to promote natural cooling and ventilation in Vidarbha.",
+      "Understanding how architects and interior designers work together, and how their roles overlap to shape your built environment.",
+    image: "/images/insight-3.png",
+    slug: "architecture-vs-interior-design-difference",
+  },
+  {
+    date: "May 05, 2026",
+    readTime: "7 min read",
+    title: "Planning a Home Renovation in Nagpur",
+    excerpt:
+      "Important local considerations for home renovations in Nagpur, including climate adaptability, local material sourcing, and contractor coordination.",
     image: "/images/insight-4.png",
-    slug: "vernacular-courtyard-cooling",
+    slug: "planning-home-renovation-nagpur",
   },
 ];
 
@@ -52,7 +52,7 @@ export function Insights() {
         <SectionHeader
           caption="Blog"
           title="Design Insights"
-          description="Practical ideas, design inspiration and expert guidance for homeowners and businesses."
+          description="Practical ideas, space planning guidance, and renovation tips for home and business owners."
           theme="light"
         />
 

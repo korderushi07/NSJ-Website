@@ -79,7 +79,7 @@ export function ContactSection() {
               <SectionHeader
                 caption="Contact Us"
                 title="Let's Discuss Your Project"
-                description="Whether you're planning a new home, renovating an apartment or designing a workspace, we'd love to hear about your vision."
+                description="Whether you are planning a new home, renovating an existing space, or developing a commercial project, we would be glad to understand your requirements and explore the possibilities."
               />
 
               {/* Contact Credentials */}
@@ -124,12 +124,10 @@ export function ContactSection() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-widest text-studio-body/50 block">
-                      Nagpur Studio
+                      Location
                     </span>
                     <address className="text-sm font-medium text-studio-heading not-italic block mt-1 leading-relaxed">
-                      Civil Lines, Nagpur,
-                      <br />
-                      Maharashtra 440001
+                      Nagpur, Maharashtra
                     </address>
                   </div>
                 </div>
@@ -163,7 +161,7 @@ export function ContactSection() {
                   21.1458° N, 79.0882° E
                 </span>
                 <span className="text-[9px] uppercase tracking-widest text-studio-body/40">
-                  Civil Lines Studio
+                  Nagpur, Maharashtra
                 </span>
               </div>
             </div>
@@ -253,11 +251,12 @@ export function ContactSection() {
                         className="flex h-12 w-full border border-studio-border bg-studio-card px-4 py-2 text-sm text-studio-heading focus-visible:outline-none focus:border-studio-accent transition-colors duration-300 font-sans cursor-pointer appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M7%209l3%203%203-3%22%20stroke%3D%22%23B8B5AF%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E')] bg-[length:1.25rem_1.25rem] bg-[right_1rem_center] bg-no-repeat"
                       >
                         <option value="General Inquiry">General Inquiry</option>
-                        <option value="Architecture">Architecture Design</option>
+                        <option value="Residential Architecture">Residential Architecture</option>
                         <option value="Interior Design">Interior Design</option>
-                        <option value="Residential">Residential Villa</option>
-                        <option value="Commercial">Commercial Workspace</option>
-                        <option value="Turnkey">Turnkey Project</option>
+                        <option value="Home Renovation">Home Renovation</option>
+                        <option value="Commercial & Office Design">Commercial & Office Design</option>
+                        <option value="Institutional Architecture">Institutional Architecture</option>
+                        <option value="3D Visualization">3D Visualization</option>
                       </select>
                       {errors.service && (
                         <span className="text-red-400 text-xs font-sans mt-1">

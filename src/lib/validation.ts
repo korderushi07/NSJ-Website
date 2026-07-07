@@ -16,7 +16,15 @@ export const contactFormSchema = z.object({
       message: "Please enter a valid phone number (digits and spaces only).",
     }),
   service: z.enum(
-    ["Architecture", "Interior Design", "Residential", "Commercial", "Turnkey", "General Inquiry"],
+    [
+      "Residential Architecture",
+      "Interior Design",
+      "Home Renovation",
+      "Commercial & Office Design",
+      "Institutional Architecture",
+      "3D Visualization",
+      "General Inquiry"
+    ],
     {
       message: "Please select a service category.",
     }

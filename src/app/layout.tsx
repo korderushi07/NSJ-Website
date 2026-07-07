@@ -17,31 +17,34 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "NSJ Studio | Premium Architecture & Interior Design Nagpur",
-    template: "%s | NSJ Studio",
+    default: "NSJ Architects and Designers | Architecture & Interior Design Nagpur",
+    template: "%s | NSJ Architects and Designers",
   },
   description:
-    "Nagpur's premier architecture and interior design firm specializing in high-end luxury residential, commercial, and turnkey projects. Designing spaces that endure.",
+    "Nagpur-based architecture and design practice creating functional, thoughtful, and visually refined residential, commercial, and interior spaces.",
   keywords: [
-    "Architects in Nagpur",
-    "Interior Designers in Nagpur",
-    "Nagpur Architecture Studio",
-    "Luxury Residential Architects",
-    "Turnkey Interior Design Nagpur",
-    "Premium Interior Design Nagpur",
+    "Architect in Nagpur",
+    "Architecture Firm in Nagpur",
+    "Interior Designer in Nagpur",
+    "Residential Architecture",
+    "Interior Design",
+    "Home Renovation",
+    "Office Design",
+    "Commercial Architecture",
+    "3D Visualization"
   ],
-  authors: [{ name: "NSJ Studio" }],
-  creator: "NSJ Studio",
+  authors: [{ name: "NSJ Architects and Designers" }],
+  creator: "NSJ Architects and Designers",
   metadataBase: new URL("https://nsjstudio.in"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "NSJ Studio | Premium Architecture & Interior Design Nagpur",
+    title: "NSJ Architects and Designers | Architecture & Interior Design Nagpur",
     description:
-      "Nagpur's premier architecture and interior design firm specializing in high-end luxury residential, commercial, and turnkey projects. Designing spaces that endure.",
+      "Nagpur-based architecture and design practice creating functional, thoughtful, and visually refined residential, commercial, and interior spaces.",
     url: "https://nsjstudio.in",
-    siteName: "NSJ Studio",
+    siteName: "NSJ Architects and Designers",
     locale: "en_IN",
     type: "website",
   },

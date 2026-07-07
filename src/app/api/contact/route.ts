@@ -20,7 +20,7 @@ export async function POST(request: Request) {
 
     // Server-side logging of form data (for local testing/demonstration)
     console.log("-----------------------------------------");
-    console.log("NEW INQUIRY RECEIVED at NSJ Studio:");
+    console.log("NEW INQUIRY RECEIVED at NSJ Architects and Designers:");
     console.log("Name:   ", result.data.name);
     console.log("Email:  ", result.data.email);
     console.log("Phone:  ", result.data.phone);

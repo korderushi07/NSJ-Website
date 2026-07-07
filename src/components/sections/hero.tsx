@@ -13,7 +13,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero.png"
-          alt="Premium Architecture Nagpur - NSJ Studio"
+          alt="Architecture and Interior Design Nagpur - NSJ Architects and Designers"
           fill
           priority
           sizes="100vw"
@@ -42,7 +42,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl sm:text-5xl md:text-7xl font-sans font-extrabold text-studio-heading leading-[1.1] mb-6 tracking-tight uppercase max-w-5xl"
           >
-            Architecture & Interior Design for Modern Homes and Workspaces
+            Architecture & Interior Design for Thoughtfully Designed Spaces
           </motion.h1>
 
           <motion.p
@@ -51,7 +51,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="text-base md:text-xl text-studio-body/90 leading-relaxed mb-10 max-w-3xl font-serif font-light italic"
           >
-            NSJ Studio creates thoughtful residential, commercial and renovation spaces that combine functionality, aesthetics and lasting value.
+            NSJ Architects and Designers is a Nagpur-based practice creating functional, thoughtful, and visually refined residential, commercial, and interior spaces.
           </motion.p>
 
           <motion.div
@@ -66,7 +66,7 @@ export function Hero() {
                 size="lg"
                 className="group rounded-full bg-white text-studio-bg hover:bg-white/90 border-0 px-8 py-4 font-semibold flex items-center justify-center gap-2 shadow-lg"
               >
-                Book a Consultation
+                Discuss Your Project
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1 text-studio-bg" />
               </Button>
             </Link>
@@ -76,7 +76,7 @@ export function Hero() {
                 size="lg"
                 className="rounded-full border border-studio-border text-studio-heading hover:border-white hover:bg-white/10 px-8 py-4 font-semibold"
               >
-                View Projects
+                Explore Our Work
               </Button>
             </Link>
           </motion.div>

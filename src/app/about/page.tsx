@@ -7,7 +7,7 @@ import { Footer } from "@/components/sections/footer";
 export const metadata: Metadata = {
   title: "About the Practice",
   description:
-    "Learn about NSJ Studio's architectural history, design manifesto, and principal team members in Nagpur. We pair modernist simplicity with local materials.",
+    "Learn about NSJ Architects and Designers, an emerging Nagpur-based architecture and design practice focused on functional, thoughtful, and lasting spaces.",
   alternates: {
     canonical: "/about",
   },
@@ -25,7 +25,7 @@ export default function AboutPage() {
               Nagpur Practice
             </span>
             <h1 className="text-4xl md:text-6xl font-serif font-light text-studio-heading leading-tight">
-              About NSJ Studio
+              About NSJ Architects and Designers
             </h1>
           </div>
         </section>

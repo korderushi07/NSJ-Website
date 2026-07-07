@@ -25,7 +25,7 @@ export function Founder() {
               <div className="relative w-full h-full overflow-hidden z-10 border border-studio-border">
                 <Image
                   src="/images/founder.png"
-                  alt="Principal Architect & Founder - NSJ Studio"
+                  alt="Principal Architect & Founder - Ar. Nikita Sandesh Jumle"
                   fill
                   sizes="(max-w-768px) 100vw, 350px"
                   className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
@@ -39,24 +39,24 @@ export function Founder() {
             <SectionHeader
               caption="Our Team"
               title="Meet the Architect"
-              description="Every project at NSJ Studio is personally guided to create spaces that are functional, elegant and built around each client's requirements."
+              description="Every project at NSJ Architects and Designers is personally guided by Ar. Nikita Sandesh Jumle to create functional, thoughtful, and compliant spaces."
             />
             
             <div className="space-y-6 text-studio-body/80 text-sm md:text-base leading-relaxed font-sans max-w-2xl">
               <p>
-                We believe that good design should be functional, practical, and tailored to the people who use the space. Whether we are designing a new duplex home, planning an office renovation, or optimizing layouts, we focus on maximizing space utility, lighting, and air circulation.
+                Ar. Nikita Sandesh Jumle is the founder and lead architect of NSJ Architects and Designers. Sourcing inspiration from her artistic background, she combines creative spatial vision with rigorous technical planning. She graduated as a Top 10 Rank Holder with a Bachelor of Architecture from Smt. Manoramabai Mundle College of Architecture, RTM Nagpur University (Batch of 2025).
               </p>
               <p>
-                Our lead architect personally oversees every stage of the design process. From initial space planning layouts and detailed 3D designs to contractor coordination and site visits, we ensure that the execution matches your vision and budget.
+                Her diverse professional background spans residential, commercial, and institutional projects, including contributions to government infrastructure such as Panchayat Samiti buildings, District Courts, and PWD Rest Houses. Certified in Autodesk Revit Architecture (BIM), she utilizes detailed digital modeling to ensure structural precision and services coordination across all project phases.
               </p>
               
               {/* Founder Signoff Block */}
               <div className="border-t border-studio-border/60 pt-6 mt-8">
                 <span className="font-serif text-lg text-studio-heading block">
-                  Lead Architect & Founder
+                  Ar. Nikita Sandesh Jumle
                 </span>
                 <span className="text-[10px] uppercase tracking-widest text-studio-accent font-semibold block mt-1">
-                  NSJ Studio Nagpur
+                  Founder & Principal Architect, NSJ Architects and Designers
                 </span>
               </div>
             </div>

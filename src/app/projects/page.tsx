@@ -5,33 +5,72 @@ import { ArrowUpRight } from "lucide-react";
 import { Navbar } from "@/components/sections/navbar";
 import { Footer } from "@/components/sections/footer";
 
-const allProjects = [
-  {
-    title: "Residential Villa",
-    location: "Ramdaspeth, Nagpur",
+interface ProjectDetail {
+  title: string;
+  location: string;
+  year: string;
+  category: string;
+  image: string;
+  scale: string;
+  scope: string;
+  description: string;
+  materials: string[];
+  features: string[];
+}
+
+const projectsData: Record<string, ProjectDetail> = {
+  "nagpur-minimalist-villa": {
+    title: "Residential Villa Concept",
+    location: "Nagpur, Maharashtra",
     year: "2025",
-    category: "Architecture & Interior Design",
+    category: "Concept Design & Visualization",
     image: "/images/project-villa.png",
-    slug: "nagpur-minimalist-villa",
-    scope: "Architecture, Landscaping, Custom Furnishings",
-    scale: "6,500 sq.ft."
+    scale: "6,500 sq.ft.",
+    scope: "Architectural Planning, Courtyard Optimization, 3D Rendering",
+    description:
+      "A residential concept designed for Nagpur's hot climate. The plan features a central courtyard driving hot air upwards through ventilators, utilizing local basalt stone and brick screens to temper the summer heat.",
+    materials: [
+      "Local Basalt Stone",
+      "Clay Brick Jaali Screens",
+      "Teakwood Joinery",
+      "Lime Plaster Walls"
+    ],
+    features: [
+      "Central cooling courtyard",
+      "Passive solar layout",
+      "Modular kitchen layout",
+      "Terrace garden space"
+    ]
   },
-  {
+  "civil-lines-office": {
     title: "Commercial Workspace",
-    location: "Civil Lines, Nagpur",
+    location: "Nagpur, Maharashtra",
     year: "2024",
-    category: "Turnkey Interior Design",
+    category: "Interior Design & Space Planning",
     image: "/images/project-office.png",
-    slug: "civil-lines-office",
-    scope: "Interior Planning, Acoustic Detailing, Custom Desking",
-    scale: "12,000 sq.ft."
+    scale: "12,000 sq.ft.",
+    scope: "Space Optimization, Workstation Layouts, Lighting Design",
+    description:
+      "A collaborative corporate office design optimized for daylighting and space utility. The layout features open workstations, custom timber screens for privacy, and integrated planter units to improve indoor quality.",
+    materials: [
+      "Polished Concrete Flooring",
+      "Acoustic Partition Panels",
+      "Teakwood Partition Screens",
+      "Brushed Aluminum Details"
+    ],
+    features: [
+      "Optimized workstation layouts",
+      "Natural daylight harvesting",
+      "Custom administrative desks",
+      "Indoor planters for air quality"
+    ]
   }
-];
+};
 
 export const metadata: Metadata = {
   title: "Architecture & Interior Design Projects | Selected Works",
   description:
-    "Explore NSJ Studio's completed residential design, home renovation, and commercial office interior projects in Nagpur.",
+    "Explore the detailed case studies and design explorations by NSJ Architects and Designers in Nagpur.",
   alternates: {
     canonical: "/projects",
   },
@@ -50,7 +89,7 @@ export default function ProjectsPage() {
               Portfolio
             </span>
             <h1 className="text-4xl md:text-6xl font-serif font-light text-studio-heading leading-tight">
-              Selected Works
+              Selected Projects & Design Explorations
             </h1>
           </div>
         </section>
@@ -58,10 +97,10 @@ export default function ProjectsPage() {
         {/* Projects Listing Grid */}
         <section className="py-24 max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
-            {allProjects.map((project) => (
-              <div key={project.slug} className="group flex flex-col">
+            {Object.entries(projectsData).map(([slug, project]) => (
+              <div key={slug} className="group flex flex-col">
                 <Link
-                  href={`/projects/${project.slug}`}
+                  href={`/projects/${slug}`}
                   className="relative block overflow-hidden aspect-[4/3] border border-studio-border"
                 >
                   <Image
@@ -85,7 +124,7 @@ export default function ProjectsPage() {
                       {project.category}
                     </span>
                     <h3 className="font-serif text-2xl text-studio-heading mt-2 group-hover:text-studio-accent transition-colors duration-300">
-                      <Link href={`/projects/${project.slug}`}>{project.title}</Link>
+                      <Link href={`/projects/${slug}`}>{project.title}</Link>
                     </h3>
                     <p className="text-xs text-studio-body/60 mt-1">{project.location}</p>
                   </div>

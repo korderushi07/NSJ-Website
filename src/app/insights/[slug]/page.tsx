@@ -16,56 +16,56 @@ interface EssayDetail {
 }
 
 const essaysData: Record<string, EssayDetail> = {
-  "timeless-materials-nagpur": {
-    title: "Selecting climate-conscious materials for Central India.",
-    date: "June 28, 2026",
+  "things-to-consider-before-renovating-home": {
+    title: "Things to Consider Before Renovating Your Home",
+    date: "July 05, 2026",
     readTime: "5 min read",
-    category: "Materials Science",
-    excerpt: "We examine how using regional stone, local brick layouts, and traditional wall plasters can help keep homes cool during Nagpur's dry summers.",
+    category: "Home Renovation",
+    excerpt: "A practical guide to planning a renovation, covering budget allocation, structural checkups, space utilization, and material timelines.",
     paragraphs: [
-      "Nagpur experiences some of the most dramatic seasonal temperature swings in Maharashtra, with summer temperatures regularly peaking beyond 45°C. Traditional modern architecture has relied heavily on active mechanical cooling (air conditioning), which imposes heavy energy loads and ignores local atmospheric dynamics. At NSJ Studio, we believe that material selection should serve as the primary defensive shield against climate exposure.",
-      "The first material layer we analyze is structural masonry. Traditional concrete slabs absorb thermal energy and radiate it inwards. By implementing double-layered brick walls interspersed with geometric jaali patterns, we generate pockets of turbulent airflow. The jaali operates as a physical venturi—forcing air through small openings to reduce wind speed, block direct sunlight, and filter the ambient light entering courtyards.",
-      "Additionally, we prioritize local basalt stone. Sourced from quarries within Vidarbha, basalt has high thermal mass density. Combined with internal lime plasters (which are breathable and chemically release moisture), the structure maintains cooler interior conditions during daylight hours and slowly discharges the heat during the cooler night cycles.",
-      "Designing for Central India is not about sealing spaces inside glass boxes. It is about detailing breathable facades, placing deep shaded overhangs, and utilizing locally verified materials that have proven their durability over centuries."
+      "Renovating a home is a rewarding way to align your living space with your changing lifestyle, but it requires careful preparation. Before dismantling walls or ordering modular cabinets, the first step is to establish a clear project scope and realistic budget. A well-planned renovation prevents unexpected delays and helps prioritize key structural changes over cosmetic finishes.",
+      "Secondly, always evaluate the existing structure of your home. Before planning changes like removing partitions to create an open-plan layout, consult a professional to identify load-bearing walls. Modifying structural elements without proper verification can compromise structural integrity.",
+      "Thirdly, prioritize layout optimization and smart storage. Think about how your family uses each room daily. In the kitchen, optimize the work triangle between the sink, stove, and refrigerator. In bedrooms and living areas, design custom built-in wardrobes and multi-functional storage units that maximize floor space.",
+      "Finally, choose materials that are durable and easy to maintain. Work with a designer to select flooring, surface finishes, and hardware that fit your usage patterns. With detailed drawings and a clear timeline, your home renovation will proceed smoothly and deliver lasting value."
     ]
   },
-  "minimalist-lighting-design": {
-    title: "The role of natural light in residential design.",
-    date: "May 14, 2026",
+  "how-good-space-planning-improves-living": {
+    title: "How Good Space Planning Improves Everyday Living",
+    date: "June 20, 2026",
     readTime: "4 min read",
-    category: "Daylight Systems",
-    excerpt: "How planning courtyards, skylights, and window overhangs helps maximize natural daylight and reduces electricity consumption in homes.",
+    category: "Space Planning",
+    excerpt: "Exploring how layout optimization, circulation paths, and natural light enhance the functionality and comfort of modern homes.",
     paragraphs: [
-      "Natural daylight is not a static decorative accent—it is a core structural element. In minimalist residential architecture, how light enters a volume dictates its emotional character, visual depth, and spatial scale. Our designs avoid placing large unshaded openings that create excessive heat glare, choosing instead to filter and direct light deliberately.",
-      "One of the primary devices we utilize is the central atrium or courtyard. In traditional Indian homes (wadas), the courtyard acted as the center of social interaction and ventilation. In a contemporary villa, this double-height courtyard directs ambient skylight into the core of the building. Placing high-level skylights directly above masonry walls allows light to slide down raw textured surfaces, creating changing shadows over the course of the day.",
-      "Furthermore, we utilize deep architectural overhangs (chajjas) and louvers. Teakwood louvers, positioned on western and southern facades, split direct sun rays into dynamic light patterns. This filters high-intensity glare while providing internal spaces with indirect daylight suitable for reading and focus.",
-      "Ultimately, lighting design is about control. By sculpting shadows and defining light pathways, we create residential spaces that feel peaceful, connected to nature, and in harmony with the day's progression."
+      "Space planning is the foundation of any successful architecture or interior project. It is the process of organizing furniture, rooms, and circulation paths to maximize usability and comfort. When a floor plan is designed thoughtfully, daily routines become smoother, and rooms feel open and inviting, regardless of their physical dimensions.",
+      "A key aspect of space planning is defining clear circulation paths. People should be able to move naturally through rooms without navigating around poorly placed furniture or tight doorways. By optimizing zoning—separating quiet private areas from active social spaces—you create a balanced environment that supports both work and rest.",
+      "Another crucial factor is maximizing natural daylight and air ventilation. Positioning windows and doors to facilitate cross-ventilation keeps indoor spaces fresh and reduces reliance on mechanical cooling. Designing open-plan living areas that lead into courtyards or balconies connects the interiors to the outdoors, enhancing the overall sense of space.",
+      "Ultimately, good space planning is about tailoring the layout to the people who inhabit it. We combine creative layout configurations with functional utility to design spaces that simplify and enrich your everyday life."
     ]
   },
-  "importance-of-turnkey": {
-    title: "Understanding turnkey execution for home building.",
-    date: "April 02, 2026",
-    readTime: "7 min read",
-    category: "Execution",
-    excerpt: "A simple guide to the design-and-build model. Learn how having architecture and interior design managed by one team prevents budget overruns.",
-    paragraphs: [
-      "Constructing a custom residence is a complex operational task. Traditionally, clients engage an architect for layout sketches, a structural consultant for concrete details, and separate contractors for brickwork, plumbing, and interior finishings. This fragmented model frequently results in miscommunication, structural inconsistencies, and significant budget overruns.",
-      "Turnkey execution, or unified design-build delivery, consolidates all project phases under a single point of responsibility. At NSJ Studio, our turnkey contracts ensure that the design approved on paper matches the physical execution on site. Our in-house designers, structural engineers, and site supervisors work as a single team.",
-      "The primary advantage of turnkey execution is material and budget alignment. During the design phase, we create a detailed bill of quantities (BOQ) with fixed costs. Because we source raw stones, premium veneers, and specialized fixtures directly from verified manufacturers, we prevent unexpected material markups and delays.",
-      "By eliminating the conflict between architects who draw complex shapes and contractors who struggle to build them, turnkey execution streamlines the construction process. It provides peace of mind, consistent detailing, and a home delivered precisely as visualized."
-    ]
-  },
-  "vernacular-courtyard-cooling": {
-    title: "How courtyards keep homes cool in Nagpur's summer.",
-    date: "March 18, 2026",
+  "architecture-vs-interior-design-difference": {
+    title: "Architecture vs Interior Design: Understanding the Difference",
+    date: "May 25, 2026",
     readTime: "6 min read",
-    category: "Passive Cooling",
-    excerpt: "Exploring how traditional central courtyards can be integrated into modern houses to promote natural cooling and ventilation in Vidarbha.",
+    category: "Design Guide",
+    excerpt: "Understanding how architects and interior designers work together, and how their roles overlap to shape your built environment.",
     paragraphs: [
-      "Courtyards have been a fundamental element of Indian architecture for centuries. In regions like Vidarbha, where summer temperatures are high, a central courtyard acts as a thermal regulator. By introducing an open sky area inside the house, we create a natural convective loop that draws hot air upward and pulls cooler air from the surrounding rooms.",
-      "In modern home design, we can adapt this traditional concept to suit contemporary lifestyles. By placing high-level ventilators, double-height ceilings, and green planters within the courtyard, we create a lively center that acts as the physical and visual heart of the home.",
-      "Additionally, we use local terracotta screens and water elements near the courtyard openings. This helps cool the incoming breeze through evaporation, lowering internal temperatures naturally without relying entirely on mechanical air conditioning.",
-      "Integrating a courtyard into your residential design is not just a stylistic choice. It is a highly practical solution to promote natural ventilation, bring indirect daylight into every room, and create a calm family sanctuary."
+      "While architecture and interior design are closely related, they represent distinct professional disciplines. Understanding the difference between them is essential when planning a new building or renovation project, as both roles are critical to creating a cohesive, functional structure.",
+      "Architecture focuses on the overall design, structural planning, and building envelope. Architects design the spatial volume, plan the structural grid, coordinate municipal compliance, and ensure that the building is structurally sound, ventilated, and responsive to its site conditions. They shape the external form and solve the fundamental layout organization.",
+      "Interior design, on the other hand, deals with the human-scale experience within those spaces. Interior designers select material finishes, design custom woodwork, plan lighting layouts, and curate color schemes and loose furniture. They focus on the visual aesthetics, tactile qualities, and detailed functionality of the interior surfaces and storage units.",
+      "A successful project requires a seamless integration of both disciplines. When architectural layout planning and interior detailing are aligned from day one, it ensures that details like electrical points, windows, plumbing lines, and modular furniture fit together perfectly without on-site modifications."
+    ]
+  },
+  "planning-home-renovation-nagpur": {
+    title: "Planning a Home Renovation in Nagpur",
+    date: "May 05, 2026",
+    readTime: "7 min read",
+    category: "Local Guide",
+    excerpt: "Important local considerations for home renovations in Nagpur, including climate adaptability, local material sourcing, and contractor coordination.",
+    paragraphs: [
+      "Renovating a home in Nagpur requires addressing specific regional factors, particularly the local climate and material availability. With summer temperatures in the Vidarbha region regularly exceeding 40°C, a successful renovation must prioritize climate adaptability and thermal comfort alongside aesthetic upgrades.",
+      "One of the most effective strategies is updating your window glazing and insulation. During a renovation, replacing old single-glazed windows with energy-efficient glass can significantly reduce heat gain. Additionally, installing shaded projections (chajjas) or adjustable screens on west- and south-facing walls keeps direct sunlight from heating up rooms.",
+      "Sourcing local materials is another key factor for durability and cost-efficiency. Using regional stones like Nagpur basalt or kota stone for flooring and outdoor deck spaces provides high thermal mass and longevity. Sourcing wood veneers, tiles, and fittings from verified local suppliers also minimizes transit times and keeps your project on schedule.",
+      "Lastly, successful coordination with local contractors is vital. A professional designer can provide detailed electrical, plumbing, and structural drawings to ensure that local masonry and carpentry teams execute the work precisely. Planning your renovation with these local insights ensures a cool, comfortable, and durable home."
     ]
   }
 };

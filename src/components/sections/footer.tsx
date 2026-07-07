@@ -43,10 +43,16 @@ export function Footer() {
             <div>
               <Link href="/" className="inline-block group mb-8">
                 <span className="font-sans text-5xl md:text-7xl font-extrabold tracking-tight text-studio-heading uppercase block transition-colors duration-300 group-hover:text-studio-accent">
-                  NSJ STUDIO
+                  NSJ
                 </span>
-                <span className="text-[10px] uppercase tracking-[0.15em] text-studio-body/75 mt-2 block pl-1">
-                  Architecture | Interior Design | Home Renovation
+                <span className="text-sm font-semibold tracking-wider text-studio-heading block mt-2 pl-1">
+                  NSJ Architects and Designers
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.15em] text-studio-body/75 mt-1 block pl-1">
+                  Next Space Junction
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.15em] text-studio-body/75 mt-1 block pl-1">
+                  Architecture | Interior Design | Renovation
                 </span>
                 <span className="text-[9px] uppercase tracking-[0.3em] text-studio-accent mt-1 block pl-1 font-semibold">
                   Nagpur, Maharashtra
@@ -113,7 +119,7 @@ export function Footer() {
 
         {/* Bottom Section */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-[11px] text-studio-body/50 space-y-4 md:space-y-0">
-          <p>© {currentYear} NSJ Studio. All rights reserved.</p>
+          <p>© {currentYear} NSJ Architects and Designers. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="/privacy" className="hover:text-studio-accent transition-colors duration-300">
               Privacy Policy

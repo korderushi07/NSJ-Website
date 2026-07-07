@@ -9,19 +9,19 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Residential Villa",
-    location: "Ramdaspeth, Nagpur",
+    title: "Residential Villa Concept",
+    location: "Nagpur, Maharashtra",
     year: "2025",
-    category: "Architecture & Interior Design",
+    category: "Concept Design & Visualization",
     image: "/images/project-villa.png",
     slug: "nagpur-minimalist-villa",
     gridClass: "md:col-span-7",
   },
   {
     title: "Commercial Workspace",
-    location: "Civil Lines, Nagpur",
+    location: "Nagpur, Maharashtra",
     year: "2024",
-    category: "Turnkey Interior Design",
+    category: "Interior Design & Space Planning",
     image: "/images/project-office.png",
     slug: "civil-lines-office",
     gridClass: "md:col-span-5",
@@ -37,8 +37,8 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <SectionHeader
             caption="Portfolio"
-            title="Featured Projects"
-            description="Explore a selection of residential, commercial and renovation projects designed with attention to detail and functionality."
+            title="Selected Projects & Design Explorations"
+            description="Explore our work, including design concepts, independent explorations, and space planning layouts."
             className="mb-0!"
           />
           <Link href="/projects" className="mt-6 md:mt-0">

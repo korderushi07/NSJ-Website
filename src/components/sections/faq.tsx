@@ -10,29 +10,39 @@ import {
 
 const faqs = [
   {
-    question: "Do you provide home renovation services?",
+    question: "What architecture and design services does NSJ provide?",
     answer:
-      "Yes, we provide complete home renovation services in Nagpur. This includes modular kitchen design, bathroom remodeling, structural modifications, electrical, plumbing, painting, and flooring upgrades.",
+      "NSJ Architects and Designers offers a complete range of services including residential architecture, interior design, home renovation, commercial & office design, institutional architecture, and 3D visualization.",
   },
   {
-    question: "Do you design residential and commercial spaces?",
+    question: "Do you undertake home and flat renovation projects?",
     answer:
-      "Yes, we design both residential spaces (such as bungalows, duplex homes, and apartments) and commercial spaces (including corporate offices, retail showrooms, clinics, and workspaces).",
+      "Yes, we undertake home renovation and flat makeover projects in Nagpur. We handle space planning, modular kitchen design, bathroom remodeling, structural modifications, and material selections.",
   },
   {
-    question: "Can I hire you only for interior design?",
+    question: "Do you provide interior design services in Nagpur?",
     answer:
-      "Yes, you can hire us exclusively for interior design services. We handle layout planning, custom modular cabinetry, furniture design, color coordination, and material selection.",
+      "Yes, we provide professional interior design services for homes and offices in Nagpur. We focus on optimizing layouts, electrical and lighting plans, modular cabinetry, and matching materials to your functional needs.",
   },
   {
-    question: "Do you provide 3D design before execution?",
+    question: "Can I approach NSJ for only design and planning services?",
     answer:
-      "Yes. We create detailed 3D visualization renders before starting any work on-site. This allows you to review and confirm the space layout, furniture dimensions, colors, and lighting beforehand.",
+      "Yes. You can engage NSJ Architects and Designers solely for layout planning, architectural drawings, 3D visualization, or municipal sanction maps, without committing to construction supervision.",
   },
   {
-    question: "Do you work outside Nagpur?",
+    question: "Do you provide 3D visualizations before project execution?",
     answer:
-      "Our office is based in Nagpur, and we primarily work on projects here and across the Vidarbha region. For larger residential and commercial projects, we are happy to travel and collaborate across Maharashtra.",
+      "Yes, we provide high-fidelity 3D visualizations and renders. This allows clients to preview and adjust material finishes, paint colors, furniture layouts, and lighting schemes before construction begins.",
+  },
+  {
+    question: "Which locations does NSJ Architects and Designers serve?",
+    answer:
+      "We are based in Nagpur, Maharashtra, and primarily serve clients in Nagpur and the Vidarbha region. We also undertake residential, commercial, and institutional projects across Maharashtra and are planning a long-term expansion across India.",
+  },
+  {
+    question: "How can I schedule an initial consultation?",
+    answer:
+      "You can easily schedule a consultation by visiting our Contact page and filling out the inquiry form, or by emailing us at inquire@nsjstudio.in. We will get back to you to discuss your project requirements.",
   },
 ];
 

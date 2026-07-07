@@ -15,10 +15,10 @@ interface ServiceData {
 }
 
 const servicesData: Record<string, ServiceData> = {
-  "architecture": {
-    title: "Architecture Design",
-    subtitle: "Contextual, structural, and sustainable layout planning.",
-    description: "NSJ Studio delivers architectural designs optimized for Central India's climate conditions. Our process ensures daylight orientation, passive heating/cooling control via jaali brick venting, structural resilience, and elegant spatial flows.",
+  "residential-architecture": {
+    title: "Residential Architecture",
+    subtitle: "Custom architectural planning for villas, duplexes, and bungalows in Nagpur.",
+    description: "NSJ Architects and Designers designs custom residential spaces tailored around your family's routine. We prioritize open layouts, natural light integration, and climate-conscious cross-ventilation solutions.",
     scope: [
       "Site evaluation and sun/wind path modeling",
       "Concept planning and CAD layouts",
@@ -34,12 +34,12 @@ const servicesData: Record<string, ServiceData> = {
   },
   "interior-design": {
     title: "Interior Design",
-    subtitle: "Custom spatial design with natural materials.",
-    description: "We create serene interior environments characterized by clean lines, warm lighting profiles, raw material pairing, and custom woodwork details. We design environments that feel calm, sophisticated, and unified.",
+    subtitle: "Custom spatial design with natural materials and thoughtful planning.",
+    description: "We design serene interior environments characterized by clean lines, functional layouts, natural materials, and custom woodwork details. We create residential and workspace interiors that balance utility and style.",
     scope: [
       "Detailed spatial layout and furniture placement planning",
       "Custom kitchen, wardrobe, and vanity carpentry designs",
-      "Luminance Lux calculations and electrical scheduling",
+      "Lighting calculations and electrical scheduling",
       "Custom surface treatment and veneer selections"
     ],
     deliverables: [
@@ -49,61 +49,10 @@ const servicesData: Record<string, ServiceData> = {
       "Loose furniture layouts and specifications"
     ]
   },
-  "residential-architecture": {
-    title: "Residential Architecture",
-    subtitle: "Creating private residential sanctuaries in Nagpur.",
-    description: "Custom residential architecture designed around your family's routine. From high-end duplex villas in Ramdaspeth to modern eco-sensitive farmhouses, we balance contemporary open layouts with traditional central courtyards.",
-    scope: [
-      "Custom single-family villa configurations",
-      "Central courtyard and green ventilation designs",
-      "Indoor-outdoor transition layout planning",
-      "High-end penthouse interior integrations"
-    ],
-    deliverables: [
-      "Civil excavation layout guidelines",
-      "3D exterior high-fidelity elevations",
-      "Finishing schedules (stone, cladding, glazing)",
-      "Smart home integration infrastructure layout"
-    ]
-  },
-  "commercial-spaces": {
-    title: "Commercial Workspaces",
-    subtitle: "Workspaces that optimize flow and build brand authority.",
-    description: "We design high-end corporate headquarters, collaborative co-working layouts, and boutique retail showrooms in Nagpur. Our commercial layouts improve structural utility, maximize workspace daylight, and elevate human comfort.",
-    scope: [
-      "Corporate office floor planning and zoning",
-      "Acoustic shielding and divider solutions",
-      "Brand identity material integrations",
-      "Boutique gallery and display layout designs"
-    ],
-    deliverables: [
-      "Demountable partition & desk layout blueprints",
-      "Acoustic panel selection and layout placements",
-      "Lighting, HVAC, and fire-safety system plans",
-      "Reception desk details & custom workspace details"
-    ]
-  },
-  "turnkey-execution": {
-    title: "Turnkey Execution",
-    subtitle: "Seamless design-to-construction management.",
-    description: "Our comprehensive turnkey delivery ensures that the design approved on paper matches the physical execution on site. We lead the entire civil construction, material sourcing, labor management, and final styling.",
-    scope: [
-      "Single-point contract management for site construction",
-      "In-house supervision of civil foundation and masonry",
-      "Sourcing of raw building materials and finishing stones",
-      "Interior fit-out, joinery fabrication, and styling"
-    ],
-    deliverables: [
-      "Comprehensive bill of quantities (BOQ) with fixed costs",
-      "Phased construction scheduling (Gantt chart)",
-      "On-site supervisor reports & quality check audits",
-      "Final keys and occupancy checklist handover"
-    ]
-  },
   "home-renovation": {
     title: "Home Renovation",
     subtitle: "Complete home and flat makeover services.",
-    description: "Transform your current property into a highly functional, modern home. We handle everything from structural changes and wall removal to modern modular kitchens, bathroom upgrades, premium flooring, and complete electrical rewiring.",
+    description: "Transform your current property into a highly functional, modern home. We handle everything from structural checkups and wall removal to modern modular kitchens, bathroom upgrades, premium flooring, and complete painting.",
     scope: [
       "Structural checks and layout modifications",
       "Modular kitchen planning and installation",
@@ -117,25 +66,42 @@ const servicesData: Record<string, ServiceData> = {
       "Custom woodwork & modular utility details"
     ]
   },
-  "space-planning": {
-    title: "Space Planning",
-    subtitle: "Detailed layout optimization for maximum utility.",
-    description: "Maximize the usage of every corner in your home or commercial office. We create detailed zoning schemes, circulation flow maps, and furniture layout plans tailored specifically to your daily activities and spatial limits.",
+  "commercial-spaces": {
+    title: "Commercial & Office Design",
+    subtitle: "Workspaces that optimize flow and improve workplace productivity.",
+    description: "We design corporate offices, collaborative coworking spaces, and retail showrooms in Nagpur. Our layouts improve structural utility, maximize workspace daylight, and improve human comfort.",
     scope: [
-      "Zoning analysis for rooms and work areas",
-      "Circulation flow maps for easy movement",
-      "Furniture layout planning and options",
-      "Storage space optimization plans"
+      "Corporate office floor planning and zoning",
+      "Acoustic shielding and divider solutions",
+      "Brand identity material integrations",
+      "Boutique gallery and display layout designs"
     ],
     deliverables: [
-      "Optimized 2D floor plans",
-      "Zoned area layout schemes",
-      "Furniture dimensions & placement plans",
-      "Storage allocation drawings"
+      "Demountable partition & desk layout blueprints",
+      "Acoustic panel selection and layout placements",
+      "Lighting, HVAC, and fire-safety system plans",
+      "Reception desk details & custom workspace details"
+    ]
+  },
+  "institutional-architecture": {
+    title: "Institutional Architecture",
+    subtitle: "Functional planning and compliance-driven design for public-sector projects.",
+    description: "Our experience extends to institutional and public-sector projects, drawing from Ar. Nikita Jumle's contribution to government infrastructure such as Panchayat Samiti buildings, District Courts, and PWD Rest Houses.",
+    scope: [
+      "Public infrastructure layout and zoning",
+      "Building compliance and safety standard checks",
+      "Traffic circulation and accessibility planning",
+      "Administrative office space configurations"
+    ],
+    deliverables: [
+      "Master layout plans & zoning blueprints",
+      "Compliance checklist reports",
+      "Detailed construction drawings",
+      "Sanction-ready drawing sets"
     ]
   },
   "3d-visualization": {
-    title: "3D Design & Visualization",
+    title: "3D Visualization",
     subtitle: "Visualize your space before execution begins.",
     description: "Make confident layout and material choices with our high-fidelity 3D renderings and design previews. We show you exactly how different color palettes, wood veneers, paint shades, and lighting schemes look in your actual space.",
     scope: [

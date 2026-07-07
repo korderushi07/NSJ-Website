@@ -8,16 +8,16 @@ import { SectionHeader } from "@/components/ui/section-header";
 const testimonials = [
   {
     quote:
-      "The space planning and modular kitchen layout they designed completely transformed our home. NSJ Studio created a space that is highly functional, bright, and matches our family's lifestyle.",
-    clientName: "Vikram Singhania",
-    location: "Residential Client, Ramdaspeth",
+      "Leveraging advanced Autodesk Revit (BIM) workflows to create precise digital models, ensuring seamless coordination of all architectural, structural, and service layouts before construction begins.",
+    clientName: "Technical Precision",
+    location: "Autodesk Revit Architecture (BIM)",
     avatar: "/images/avatar-1.png",
   },
   {
     quote:
-      "Their execution support and attention to detail saved us time and cost. The new office interior design in Civil Lines is clean, practical, and has significantly improved our team's daily productivity.",
-    clientName: "Dr. Meera Deshmukh",
-    location: "Commercial Client, Civil Lines",
+      "Bringing planning standards from public sector and government projects—including District Courts and Panchayat Samiti buildings—to ensure structural compliance and quality across all work.",
+    clientName: "Compliance & Rigor",
+    location: "Residential, Commercial & Institutional",
     avatar: "/images/avatar-2.png",
   },
 ];
@@ -31,7 +31,7 @@ export function Testimonials() {
       {/* Large Translucent Watermark Background */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden z-0">
         <span className="text-[14vw] font-sans font-black text-black/[0.02] tracking-[0.25em] whitespace-nowrap">
-          NSJ STUDIO
+          NSJ
         </span>
       </div>
 
@@ -42,13 +42,13 @@ export function Testimonials() {
           <div className="lg:col-span-5 flex flex-col justify-between h-full min-h-[220px]">
             <div>
               <SectionHeader
-                caption="Reviews"
-                title="What Our Clients Say"
+                caption="Our Approach"
+                title="Professional Standards & Experience"
                 theme="light"
                 className="mb-6!"
               />
               <p className="text-stone-600 text-sm md:text-base leading-relaxed font-sans max-w-md">
-                Discover how we help families and businesses in Nagpur build spaces that are functional, elegant, and designed to meet their everyday needs.
+                Discover how we combine advanced technical tools, public-sector experience, and client-focused planning to deliver reliable design solutions.
               </p>
             </div>
 

@@ -6,38 +6,47 @@ import { Footer } from "@/components/sections/footer";
 
 const allInsights = [
   {
-    date: "June 28, 2026",
+    date: "July 05, 2026",
     readTime: "5 min read",
-    title: "Selecting climate-conscious materials for Central India.",
+    title: "Things to Consider Before Renovating Your Home",
     excerpt:
-      "An analysis of thermal mass properties of locally sourced stone, clay brick jaalis, and lime plasters in tempering Nagpur's dry summer heat.",
-    slug: "timeless-materials-nagpur",
-    category: "Materials Science"
+      "A practical guide to planning a renovation, covering budget allocation, structural checkups, space utilization, and material timelines.",
+    slug: "things-to-consider-before-renovating-home",
+    category: "Home Renovation"
   },
   {
-    date: "May 14, 2026",
+    date: "June 20, 2026",
     readTime: "4 min read",
-    title: "The role of natural light in luxury residential design.",
+    title: "How Good Space Planning Improves Everyday Living",
     excerpt:
-      "How central courtyards, skylights, and deep overhangs act as architectural instruments to direct changing daylight throughout the day.",
-    slug: "minimalist-lighting-design",
-    category: "Daylight Systems"
+      "Exploring how layout optimization, circulation paths, and natural light enhance the functionality and comfort of modern homes.",
+    slug: "how-good-space-planning-improves-living",
+    category: "Space Planning"
   },
   {
-    date: "April 02, 2026",
-    readTime: "7 min read",
-    title: "Understanding turnkey delivery in private residential builds.",
+    date: "May 25, 2026",
+    readTime: "6 min read",
+    title: "Architecture vs Interior Design: Understanding the Difference",
     excerpt:
-      "Demystifying the design-build project model. How centralizing design and structural teams under one agency prevents cost overruns.",
-    slug: "importance-of-turnkey",
-    category: "Execution"
+      "Understanding how architects and interior designers work together, and how their roles overlap to shape your built environment.",
+    slug: "architecture-vs-interior-design-difference",
+    category: "Design Guide"
   },
+  {
+    date: "May 05, 2026",
+    readTime: "7 min read",
+    title: "Planning a Home Renovation in Nagpur",
+    excerpt:
+      "Important local considerations for home renovations in Nagpur, including climate adaptability, local material sourcing, and contractor coordination.",
+    slug: "planning-home-renovation-nagpur",
+    category: "Local Guide"
+  }
 ];
 
 export const metadata: Metadata = {
   title: "Insights & Design Journal",
   description:
-    "Explore NSJ Studio's essays on architectural design principles, climate-responsive structures, local stone sourcing, and construction execution in Nagpur.",
+    "Explore articles and essays on home renovation, space planning layouts, and design principles by NSJ Architects and Designers in Nagpur.",
   alternates: {
     canonical: "/insights",
   },

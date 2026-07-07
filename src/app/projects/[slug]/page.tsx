@@ -22,49 +22,49 @@ interface ProjectDetail {
 
 const projectsData: Record<string, ProjectDetail> = {
   "nagpur-minimalist-villa": {
-    title: "Residential Villa",
-    location: "Ramdaspeth, Nagpur",
+    title: "Residential Villa Concept",
+    location: "Nagpur, Maharashtra",
     year: "2025",
-    category: "Architecture & Interior Design",
+    category: "Concept Design & Visualization",
     image: "/images/project-villa.png",
     scale: "6,500 sq.ft.",
-    scope: "Architectural Planning, Structural Engineering, Interior Detailing, Landscape Curation",
+    scope: "Architectural Planning, Courtyard Optimization, 3D Rendering",
     description:
-      "This private duplex villa utilizes vernacular masonry facades to temper the central Indian heat. The layout pivots around a double-height courtyard that drives passive air ventilation, filtering hot air upwards through high ventilating windows. Inside, natural basalt flooring pairs with raw teakwood joinery and plaster finishes, establishing a sensory connection to Central Indian craft.",
+      "A residential concept designed for Nagpur's hot climate. The plan features a central courtyard driving hot air upwards through ventilators, utilizing local basalt stone and brick screens to temper the summer heat.",
     materials: [
-      "Local Nagpur Basalt Stone (Honed)",
-      "Recycled Clay Brick Masonry (Jaali pattern)",
-      "Teakwood Joinery & Louvers",
-      "Textured Lime Plaster Walls"
+      "Local Basalt Stone",
+      "Clay Brick Jaali Screens",
+      "Teakwood Joinery",
+      "Lime Plaster Walls"
     ],
     features: [
-      "Double-height light courtyard",
-      "Passive solar layout orientation",
-      "Custom modular kitchen integration",
-      "Rainwater harvesting systems"
+      "Central cooling courtyard",
+      "Passive solar layout",
+      "Modular kitchen layout",
+      "Terrace garden space"
     ]
   },
   "civil-lines-office": {
     title: "Commercial Workspace",
-    location: "Civil Lines, Nagpur",
+    location: "Nagpur, Maharashtra",
     year: "2024",
-    category: "Turnkey Interior Design",
+    category: "Interior Design & Space Planning",
     image: "/images/project-office.png",
     scale: "12,000 sq.ft.",
-    scope: "Space Optimization, Acoustic Planning, Custom Furniture Fabrication, Mechanical Integrations",
+    scope: "Space Optimization, Workstation Layouts, Lighting Design",
     description:
-      "The corporate headquarters in Civil Lines represents a turnkey interior project optimized for daylight harvesting and workspace comfort. The open plan integrates micro-acoustic meeting nodes styled with custom timber louvers. Visual clarity is achieved through raw polished concrete surfaces, raw brass details, and soft lighting fixtures, fostering a productive corporate environment.",
+      "A collaborative corporate office design optimized for daylighting and space utility. The layout features open workstations, custom timber screens for privacy, and integrated planter units to improve indoor quality.",
     materials: [
-      "Polished Aggregate Concrete",
-      "Acoustic Wool Dividers (Charcoal)",
-      "Natural Brushed Brass Panels",
-      "Double-Glazed Low-E Glass Walls"
+      "Polished Concrete Flooring",
+      "Acoustic Partition Panels",
+      "Teakwood Partition Screens",
+      "Brushed Aluminum Details"
     ],
     features: [
-      "Open layouts with acoustic isolation pods",
-      "Daylight-responsive lighting control systems",
-      "Custom-fabricated executive desks",
-      "Integrated microclimate planters"
+      "Optimized workstation layouts",
+      "Natural daylight harvesting",
+      "Custom administrative desks",
+      "Indoor planters for air quality"
     ]
   }
 };
@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${project.title} | ${project.location}`,
-    description: `Case study of NSJ Studio's ${project.title} project in ${project.location}. Completed in ${project.year}. Scale: ${project.scale}.`,
+    description: `Case study of NSJ Architects and Designers' ${project.title} project in ${project.location}. Completed in ${project.year}. Scale: ${project.scale}.`,
     alternates: {
       canonical: `/projects/${slug}`,
     },

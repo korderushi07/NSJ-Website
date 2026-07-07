@@ -10,54 +10,54 @@ const services = [
     num: "01",
     title: "Residential Architecture",
     description:
-      "Custom architectural planning for bungalows, duplex villas, and apartments. We design functional layouts optimized for ventilation, space utility, and natural daylight.",
+      "Custom architectural planning for bungalow homes, duplexes, and apartments, focusing on functional layouts, ventilation, and natural daylight.",
     icon: Home,
-    details: ["Villa & Bungalow Design", "Apartment Layout Planning", "Architectural Blueprints", "Nagpur Municipal Approvals"],
+    details: ["Villa & Bungalow Design", "Apartment Layout Planning", "Architectural Blueprints", "Space Optimization"],
     slug: "residential-architecture",
   },
   {
     num: "02",
     title: "Interior Design",
     description:
-      "Elegant interior design solutions tailored to your daily routine. We coordinate color schemes, customized wood layouts, material selections, and lighting plans.",
+      "Serene interior solutions tailored to your routine, combining color schemes, lighting layouts, and custom woodwork details.",
     icon: Compass,
-    details: ["Living Room & Bedroom Interiors", "Modular Kitchen Layouts", "Custom Wardrobes & Joinery", "Lighting & Ceiling Layouts"],
+    details: ["Residential & Office Interiors", "Modular Kitchen Layouts", "Custom Wardrobes & Joinery", "Lighting & Ceiling Plans"],
     slug: "interior-design",
   },
   {
     num: "03",
     title: "Home Renovation",
     description:
-      "Transform your current property into a modern living space. We undertake structural modifications, bathroom remodeling, kitchen upgrades, and complete flat makeovers.",
+      "Transform existing bungalows and flats into modern living spaces through structural changes, kitchen upgrades, and complete makeovers.",
     icon: Key,
-    details: ["Complete Flat Makeovers", "Modular Kitchen Upgrades", "Bathroom Remodeling", "Flooring & Painting Work"],
+    details: ["Complete Flat Makeovers", "Modular Kitchen Upgrades", "Bathroom Remodeling", "Flooring & Finishing Upgrades"],
     slug: "home-renovation",
   },
   {
     num: "04",
-    title: "Office Interior Design",
+    title: "Commercial & Office Design",
     description:
-      "Efficient and professional workspaces designed to improve collaboration and productivity. We design layout options for cabins, workstations, and reception desks.",
+      "Efficient and professional workspaces designed to improve collaboration, traffic circulation, and workplace productivity.",
     icon: Briefcase,
-    details: ["Corporate Workstation Layouts", "Executive Cabins & Reception", "Conference Room Layouts", "Retail Showroom Interiors"],
+    details: ["Corporate Workspace Layouts", "Executive Cabins & Desks", "Retail Showroom Interiors", "Conference Room Layouts"],
     slug: "commercial-spaces",
   },
   {
     num: "05",
-    title: "Space Planning",
+    title: "Institutional Architecture",
     description:
-      "Smart zoning maps and flow plans that maximize the functionality of every square foot in your residential apartment or commercial office.",
-    icon: LayoutGrid,
-    details: ["Floor Plan Optimization", "Furniture Placement Plans", "Smart Storage Curation", "Zoning & Circulation Analysis"],
-    slug: "space-planning",
+      "Functional planning and compliance-driven design for public-sector, educational, and institutional buildings.",
+    icon: Landmark,
+    details: ["Institutional Layouts", "Public Infrastructure Design", "Administrative Buildings", "Space Planning & Zoning"],
+    slug: "institutional-architecture",
   },
   {
     num: "06",
-    title: "3D Design & Visualization",
+    title: "3D Visualization",
     description:
-      "Visualize your home or office before the actual construction begins. We offer high-fidelity 3D renders, walkthroughs, and material preview boards.",
+      "High-fidelity 3D renders, walkthroughs, and material preview boards to visualize your home or office before construction starts.",
     icon: Eye,
-    details: ["High-Fidelity 3D Renders", "Interior & Exterior 3D Views", "Material & Color Previews", "Virtual Walkthroughs"],
+    details: ["High-Fidelity 3D Renders", "Interior & Exterior Views", "Material & Color Previews", "Virtual Walkthroughs"],
     slug: "3d-visualization",
   },
 ];
@@ -68,8 +68,8 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <SectionHeader
           caption="Our Services"
-          title="Our Architecture & Interior Design Services"
-          description="From residential architecture to complete home and office renovations, we design spaces that reflect your lifestyle, business and vision."
+          title="Architecture & Design Services"
+          description="We provide professional architecture, interior design, home renovation, planning, and 3D visualization services in Nagpur and surrounding regions."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

@@ -6,7 +6,7 @@ import { Footer } from "@/components/sections/footer";
 export const metadata: Metadata = {
   title: "Book a Consultation",
   description:
-    "Schedule an architectural briefing or interior design consultation with NSJ Studio in Civil Lines, Nagpur. Let's discuss your project scale and structural requirements.",
+    "Schedule a consultation with NSJ Architects and Designers in Nagpur. Let's discuss your project requirements and explore the possibilities.",
   alternates: {
     canonical: "/contact",
   },

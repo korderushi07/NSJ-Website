@@ -53,10 +53,10 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="group flex flex-col">
             <span className="font-serif text-xl md:text-2xl tracking-[0.15em] text-studio-heading font-semibold transition-colors duration-300">
-              NSJ <span className="text-studio-accent font-light">STUDIO</span>
+              NSJ
             </span>
-            <span className="text-[7px] uppercase tracking-[0.4em] text-studio-body/80 mt-0.5 leading-none transition-colors group-hover:text-studio-accent">
-              Architecture & Interiors
+            <span className="text-[6.5px] uppercase tracking-[0.15em] text-studio-body/80 mt-0.5 leading-none transition-colors group-hover:text-studio-accent">
+              Architects & Designers
             </span>
           </Link>
  
@@ -90,7 +90,7 @@ export function Navbar() {
           <div className="flex items-center space-x-4">
             <Link href="/contact" className="hidden md:block">
               <Button variant="secondary" size="sm">
-                Book Consultation
+                Schedule Consultation
               </Button>
             </Link>
 
@@ -151,15 +151,15 @@ export function Navbar() {
                   Nagpur Studio
                 </span>
                 <p className="text-xs text-studio-body/80 leading-relaxed font-sans">
-                  Civil Lines, Nagpur, Maharashtra 440001
+                  Nagpur, Maharashtra
                   <br />
-                  inquire@nsjstudio.in | +91 98765 43210
+                  inquire@nsjstudio.in
                 </p>
               </div>
 
               <Link href="/contact" className="w-full">
                 <Button className="w-full justify-between group" size="lg">
-                  Book Consultation
+                  Schedule Consultation
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>

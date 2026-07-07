@@ -19,14 +19,14 @@ export interface ArticleSchemaData {
 }
 
 /**
- * Generates the local business schema for NSJ Studio in Nagpur.
+ * Generates the local business schema for NSJ Architects and Designers in Nagpur.
  */
 export function getLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "ArchitecturalOffice",
-    "name": "NSJ Studio",
-    "description": "Nagpur's premier architecture and interior design firm specializing in high-end luxury residential, commercial, and turnkey projects.",
+    "name": "NSJ Architects and Designers",
+    "description": "Nagpur-based architecture and design practice creating functional, thoughtful, and visually refined residential, commercial, and interior spaces.",
     "url": SITE_URL,
     "logo": `${SITE_URL}/logo.png`,
     "image": `${SITE_URL}/images/hero.jpg`,
@@ -80,7 +80,7 @@ export function getProjectSchema(project: ProjectSchemaData) {
     "url": `${SITE_URL}/projects/${project.slug}`,
     "creator": {
       "@type": "Organization",
-      "name": "NSJ Studio"
+      "name": "NSJ Architects and Designers"
     },
     "locationCreated": {
       "@type": "Place",
@@ -105,11 +105,11 @@ export function getArticleSchema(article: ArticleSchemaData) {
     "url": `${SITE_URL}/insights/${article.slug}`,
     "author": {
       "@type": "Organization",
-      "name": "NSJ Studio"
+      "name": "NSJ Architects and Designers"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "NSJ Studio",
+      "name": "NSJ Architects and Designers",
       "logo": {
         "@type": "ImageObject",
         "url": `${SITE_URL}/logo.png`

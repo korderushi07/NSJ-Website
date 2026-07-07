@@ -14,26 +14,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/contact",
   ];
 
-  // Placeholder project slugs to support dynamic routes search indexing
+  // Project slugs to support dynamic routes search indexing
   const projectSlugs = [
     "nagpur-minimalist-villa",
     "civil-lines-office",
-    "ramdaspeth-penthouse",
-    "turnkey-boutique-hotel",
   ];
 
-  // Placeholder service slugs
+  // Service slugs
   const serviceSlugs = [
     "residential-architecture",
-    "commercial-interiors",
-    "turnkey-execution",
+    "interior-design",
+    "home-renovation",
+    "commercial-spaces",
+    "institutional-architecture",
+    "3d-visualization",
   ];
 
-  // Placeholder insights slugs
+  // Insights slugs
   const insightSlugs = [
-    "timeless-materials-nagpur",
-    "minimalist-lighting-design",
-    "importance-of-turnkey",
+    "things-to-consider-before-renovating-home",
+    "how-good-space-planning-improves-living",
+    "architecture-vs-interior-design-difference",
+    "planning-home-renovation-nagpur",
   ];
 
   const staticSitemaps = staticPaths.map((path) => ({

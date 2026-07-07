@@ -6,38 +6,38 @@ import { SectionHeader } from "@/components/ui/section-header";
 const steps = [
   {
     num: "01",
-    phase: "Consultation",
-    duration: "Week 1",
+    phase: "Understand",
+    duration: "Phase 1",
     description:
-      "We discuss your design requirements, budget expectations, and vision for the home or office space.",
+      "Understanding the client, site, requirements, and vision.",
   },
   {
     num: "02",
-    phase: "Site Visit & Measurements",
-    duration: "Week 2",
+    phase: "Explore",
+    duration: "Phase 2",
     description:
-      "Our team visits the site to take detailed measurements and analyze space conditions for planning.",
+      "Developing ideas, layouts, and design possibilities.",
   },
   {
     num: "03",
-    phase: "Concept Design",
-    duration: "Weeks 3-4",
+    phase: "Design",
+    duration: "Phase 3",
     description:
-      "We create initial layout options, furniture placement plans, and space allocation drawings.",
+      "Refining the selected direction through detailed planning and visualization.",
   },
   {
     num: "04",
-    phase: "Design Development",
-    duration: "Weeks 5-8",
+    phase: "Develop",
+    duration: "Phase 4",
     description:
-      "We develop detailed 3D designs, coordinate material lists, and prepare electrical and plumbing plans.",
+      "Preparing drawings, materials, and technical details.",
   },
   {
     num: "05",
-    phase: "Execution Support",
-    duration: "Ongoing",
+    phase: "Support",
+    duration: "Phase 5",
     description:
-      "We provide site visits and coordination support to help contractors execute the design as planned.",
+      "Providing coordination and design support through project execution.",
   },
 ];
 
@@ -48,7 +48,7 @@ export function Process() {
         <SectionHeader
           caption="Our Process"
           title="How We Work"
-          description="A simple step-by-step design process to help you plan, visualize, and execute your project smoothly."
+          description="A structured workflow to design and support your project from initial concept to execution."
         />
 
         {/* Timeline Container */}

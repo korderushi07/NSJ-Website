@@ -14,19 +14,19 @@ export function Introduction() {
           <div className="lg:col-span-7 flex flex-col justify-center">
             <SectionHeader
               caption="About Us"
-              title="About NSJ Studio"
+              title="About NSJ Architects and Designers"
               theme="light"
             />
             
             <div className="space-y-6 text-stone-700 text-sm md:text-base leading-relaxed font-sans max-w-xl">
               <p className="text-base md:text-lg font-serif italic text-studio-bg font-light border-l-2 border-studio-accent/70 pl-4 py-1">
-                Designing spaces that are practical, timeless and tailored to the people who use them.
+                Thoughtful. Timeless. Innovative.
               </p>
               <p>
-                Based in Nagpur, NSJ Studio is a professional architecture and interior design practice. We specialize in residential design, commercial workspaces, and complete home renovations. Our focus is on functional layout optimization, efficient space planning, and clear client collaboration.
+                NSJ stands for &ldquo;Next Space Junction&rdquo; — representing the intersection of imagination, design, and purpose. We are an emerging Nagpur-based architecture and design practice focused on creating meaningful, functional, and lasting spaces.
               </p>
               <p>
-                Our team works closely with each client from initial concept drawings and 3D visualization to final on-site execution support, ensuring every home and office is built to deliver lasting value.
+                Every project begins by understanding the client's story, site, and purpose. We combine creativity, technical knowledge, thoughtful planning, and attention to detail to design residential architecture, commercial offices, and interior environments tailored to our clients' needs.
               </p>
             </div>
           </div>
@@ -46,7 +46,7 @@ export function Introduction() {
               <div className="relative w-full h-full overflow-hidden z-10 border border-stone-300">
                 <Image
                   src="/images/intro.png"
-                  alt="Architectural Material Textures - NSJ Studio"
+                  alt="Architectural Material Textures - NSJ Architects and Designers"
                   fill
                   sizes="(max-w-768px) 100vw, 400px"
                   className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
