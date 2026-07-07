@@ -6,7 +6,7 @@ import { Footer } from "@/components/sections/footer";
 export const metadata: Metadata = {
   title: "Our Architecture & Interior Design Services",
   description:
-    "Explore our core services, including residential architecture, interior design, home renovation, and 3D visualization by NSJ Architects and Designers in Nagpur.",
+    "Explore our professional services including architectural design, interior planning, home renovation, residential and commercial architecture, landscape design, and consultancy services by NSJ Architects and Designers in Nagpur.",
   alternates: {
     canonical: "/services",
   },

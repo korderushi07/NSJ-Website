@@ -17,12 +17,15 @@ export const contactFormSchema = z.object({
     }),
   service: z.enum(
     [
-      "Residential Architecture",
+      "Architectural Design",
       "Interior Design",
       "Home Renovation",
-      "Commercial & Office Design",
-      "Institutional Architecture",
-      "3D Visualization",
+      "Residential Architecture",
+      "Commercial Architecture",
+      "Institutional & Government Projects",
+      "Landscape Design",
+      "Construction Drawings",
+      "Architectural Consultancy",
       "General Inquiry"
     ],
     {

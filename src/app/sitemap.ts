@@ -22,12 +22,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Service slugs
   const serviceSlugs = [
-    "residential-architecture",
+    "architectural-design",
     "interior-design",
     "home-renovation",
-    "commercial-spaces",
-    "institutional-architecture",
-    "3d-visualization",
+    "residential-architecture",
+    "commercial-architecture",
+    "institutional-government-projects",
+    "landscape-design",
+    "construction-drawings",
+    "architectural-consultancy",
   ];
 
   // Insights slugs

@@ -2,63 +2,81 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, Landmark, Home, Briefcase, Key, Compass, LayoutGrid, Eye } from "lucide-react";
+import { ArrowRight, Landmark, Home, Briefcase, Key, Compass, LayoutGrid, Eye, Leaf, Ruler, ClipboardList } from "lucide-react";
 import { SectionHeader } from "@/components/ui/section-header";
 
 const services = [
   {
     num: "01",
-    title: "Residential Architecture",
-    description:
-      "Custom architectural planning for bungalow homes, duplexes, and apartments, focusing on functional layouts, ventilation, and natural daylight.",
-    icon: Home,
-    details: ["Villa & Bungalow Design", "Apartment Layout Planning", "Architectural Blueprints", "Space Optimization"],
-    slug: "residential-architecture",
+    title: "Architectural Design",
+    description: "Complete architectural design solutions from concept to construction.",
+    icon: Compass,
+    details: ["Concept Development", "Space Planning", "Working Drawings", "Municipal Submission Drawings"],
+    slug: "architectural-design",
   },
   {
     num: "02",
     title: "Interior Design",
-    description:
-      "Serene interior solutions tailored to your routine, combining color schemes, lighting layouts, and custom woodwork details.",
-    icon: Compass,
-    details: ["Residential & Office Interiors", "Modular Kitchen Layouts", "Custom Wardrobes & Joinery", "Lighting & Ceiling Plans"],
+    description: "Thoughtfully designed interiors that combine functionality, aesthetics, and comfort.",
+    icon: LayoutGrid,
+    details: ["Space Planning & Mood Boards", "Material & Finish Selection", "Detailed Working Drawings", "BOQ (Bill of Quantities)"],
     slug: "interior-design",
   },
   {
     num: "03",
     title: "Home Renovation",
-    description:
-      "Transform existing bungalows and flats into modern living spaces through structural changes, kitchen upgrades, and complete makeovers.",
+    description: "Transform existing buildings into modern, functional, and efficient spaces.",
     icon: Key,
-    details: ["Complete Flat Makeovers", "Modular Kitchen Upgrades", "Bathroom Remodeling", "Flooring & Finishing Upgrades"],
+    details: ["Existing Site Assessment", "Demolition Plans & Space Replanning", "Facade Renovation", "Material Recommendations"],
     slug: "home-renovation",
   },
   {
     num: "04",
-    title: "Commercial & Office Design",
-    description:
-      "Efficient and professional workspaces designed to improve collaboration, traffic circulation, and workplace productivity.",
-    icon: Briefcase,
-    details: ["Corporate Workspace Layouts", "Executive Cabins & Desks", "Retail Showroom Interiors", "Conference Room Layouts"],
-    slug: "commercial-spaces",
+    title: "Residential Architecture",
+    description: "Custom homes, villas, farmhouses, apartments, and bungalows designed around your lifestyle.",
+    icon: Home,
+    details: ["Personalized Home Planning", "Vastu-Based Planning", "Landscape & Interior Concepts", "Structural Coordination & Site Visits"],
+    slug: "residential-architecture",
   },
   {
     num: "05",
-    title: "Institutional Architecture",
-    description:
-      "Functional planning and compliance-driven design for public-sector, educational, and institutional buildings.",
-    icon: Landmark,
-    details: ["Institutional Layouts", "Public Infrastructure Design", "Administrative Buildings", "Space Planning & Zoning"],
-    slug: "institutional-architecture",
+    title: "Commercial Architecture",
+    description: "Design solutions for offices, retail spaces, showrooms, hotels, restaurants, and mixed-use developments.",
+    icon: Briefcase,
+    details: ["Functional Space Planning", "Facade & Branding Integration", "Services Coordination", "Construction Support"],
+    slug: "commercial-architecture",
   },
   {
     num: "06",
-    title: "3D Visualization",
-    description:
-      "High-fidelity 3D renders, walkthroughs, and material preview boards to visualize your home or office before construction starts.",
-    icon: Eye,
-    details: ["High-Fidelity 3D Renders", "Interior & Exterior Views", "Material & Color Previews", "Virtual Walkthroughs"],
-    slug: "3d-visualization",
+    title: "Institutional & Government Projects",
+    description: "Architectural planning and design for institutional and public infrastructure projects.",
+    icon: Landmark,
+    details: ["Master Planning", "Functional Zoning", "BOQ & Tender Documentation Support", "Site Coordination"],
+    slug: "institutional-government-projects",
+  },
+  {
+    num: "07",
+    title: "Landscape Design",
+    description: "Landscape planning that complements architecture and enhances user experience.",
+    icon: Leaf,
+    details: ["Landscape Master Plan", "Hardscape & Planting Design", "Water Features & Lighting", "Detailed Landscape Drawings"],
+    slug: "landscape-design",
+  },
+  {
+    num: "08",
+    title: "Construction Drawings",
+    description: "Detailed technical drawings for constructors and developers.",
+    icon: Ruler,
+    details: ["Detailed Working Drawings", "Schedules & Floor Layouts", "Coordination Drawings", "GFC (Good for Construction) Drawings"],
+    slug: "construction-drawings",
+  },
+  {
+    num: "09",
+    title: "Architectural Consultancy",
+    description: "Professional guidance from project inception to completion.",
+    icon: ClipboardList,
+    details: ["Project Scheduling", "Site Supervision & Quality Checks", "Material Verification", "Client Reporting & Coordination"],
+    slug: "architectural-consultancy",
   },
 ];
 

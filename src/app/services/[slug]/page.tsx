@@ -15,106 +15,157 @@ interface ServiceData {
 }
 
 const servicesData: Record<string, ServiceData> = {
-  "residential-architecture": {
-    title: "Residential Architecture",
-    subtitle: "Custom architectural planning for villas, duplexes, and bungalows in Nagpur.",
-    description: "NSJ Architects and Designers designs custom residential spaces tailored around your family's routine. We prioritize open layouts, natural light integration, and climate-conscious cross-ventilation solutions.",
+  "architectural-design": {
+    title: "Architectural Design",
+    subtitle: "Complete architectural design solutions from concept to construction.",
+    description: "We provide comprehensive architectural planning and design. From site analysis and initial client requirements to working drawings, structural coordination, and site support.",
     scope: [
-      "Site evaluation and sun/wind path modeling",
-      "Concept planning and CAD layouts",
-      "Structural layout engineering integrations",
-      "Nagpur local municipal permissions and filings"
+      "Site Analysis & Feasibility Studies",
+      "Concept Development & Space Planning",
+      "Structural & Services Coordination",
+      "Municipal Submission Drawings"
     ],
     deliverables: [
-      "Master layout plans & site blueprints",
-      "3D volumetric elevation models",
-      "Plumbing, electrical, and drainage schemas",
-      "NIT / NMC sanction drawings"
+      "Floor plans, elevations, and sections",
+      "3D concept renderings",
+      "Municipal submission blueprints",
+      "Detailed working drawing sets"
     ]
   },
   "interior-design": {
     title: "Interior Design",
-    subtitle: "Custom spatial design with natural materials and thoughtful planning.",
-    description: "We design serene interior environments characterized by clean lines, functional layouts, natural materials, and custom woodwork details. We create residential and workspace interiors that balance utility and style.",
+    subtitle: "Thoughtfully designed interiors that combine functionality, aesthetics, and comfort.",
+    description: "Serene interior environments designed for residential, commercial, and hospitality clients. We focus on custom carpentry, color coordination, lighting optimization, and material selection.",
     scope: [
-      "Detailed spatial layout and furniture placement planning",
-      "Custom kitchen, wardrobe, and vanity carpentry designs",
-      "Lighting calculations and electrical scheduling",
-      "Custom surface treatment and veneer selections"
+      "Space Planning & Furniture Layout",
+      "Material & Finish Selection",
+      "False Ceiling & Lighting Design",
+      "Detailed Interior Working Drawings"
     ],
     deliverables: [
-      "Mood boards and material palettes",
-      "Sectional elevations & custom woodwork drawings",
-      "Lighting fixture lists and wiring routing blueprints",
-      "Loose furniture layouts and specifications"
+      "Concept mood boards & materials palette",
+      "Custom wardrobe, kitchen & woodwork drawings",
+      "Electrical layout & lighting plans",
+      "Detailed Bill of Quantities (BOQ)"
     ]
   },
   "home-renovation": {
     title: "Home Renovation",
-    subtitle: "Complete home and flat makeover services.",
-    description: "Transform your current property into a highly functional, modern home. We handle everything from structural checkups and wall removal to modern modular kitchens, bathroom upgrades, premium flooring, and complete painting.",
+    subtitle: "Transform existing buildings into modern, functional, and efficient spaces.",
+    description: "Complete renovation planning to modernize your home or office space. We check structural conditions, re-plan interior layout utility, specify upgrades, and supervise execution drawings.",
     scope: [
-      "Structural checks and layout modifications",
-      "Modular kitchen planning and installation",
-      "Bathroom layout planning and plumbing updates",
-      "Flooring, wall treatments, and complete painting"
+      "Existing Site Condition Assessment",
+      "Structural layouts & demolition planning",
+      "Space re-zoning and interior upgrades",
+      "Facade modernization & renovations"
     ],
     deliverables: [
-      "Before & after layout plans",
-      "Material specifications (flooring, tiles, paint)",
-      "Electrical layout and lighting plans",
-      "Custom woodwork & modular utility details"
+      "Demolition & construction layouts",
+      "Upgraded interior & flooring blueprints",
+      "Facade elevation drawings",
+      "Material specifications & recommendations"
     ]
   },
-  "commercial-spaces": {
-    title: "Commercial & Office Design",
-    subtitle: "Workspaces that optimize flow and improve workplace productivity.",
-    description: "We design corporate offices, collaborative coworking spaces, and retail showrooms in Nagpur. Our layouts improve structural utility, maximize workspace daylight, and improve human comfort.",
+  "residential-architecture": {
+    title: "Residential Architecture",
+    subtitle: "Custom homes, villas, farmhouses, apartments, and bungalows designed around your lifestyle.",
+    description: "Personalized residential planning tailored around your routine, site landscape, and requirements. We integrate traditional planning guidelines (Vastu) with modern spatial requirements.",
     scope: [
-      "Corporate office floor planning and zoning",
-      "Acoustic shielding and divider solutions",
-      "Brand identity material integrations",
-      "Boutique gallery and display layout designs"
+      "Personalized family spatial planning",
+      "Vastu-based layout optimization",
+      "Landscape concept & garden styling",
+      "Structural & services engineering coordination"
     ],
     deliverables: [
-      "Demountable partition & desk layout blueprints",
-      "Acoustic panel selection and layout placements",
-      "Lighting, HVAC, and fire-safety system plans",
-      "Reception desk details & custom workspace details"
+      "Custom floor layouts & plans",
+      "3D elevation & exterior renderings",
+      "Site visits & compliance monitoring",
+      "GFC construction drawing sets"
     ]
   },
-  "institutional-architecture": {
-    title: "Institutional Architecture",
-    subtitle: "Functional planning and compliance-driven design for public-sector projects.",
-    description: "Our experience extends to institutional and public-sector projects, drawing from Ar. Nikita Jumle's contribution to government infrastructure such as Panchayat Samiti buildings, District Courts, and PWD Rest Houses.",
+  "commercial-architecture": {
+    title: "Commercial Architecture",
+    subtitle: "Design solutions for offices, retail spaces, showrooms, hotels, and restaurants.",
+    description: "Strategic commercial design that improves layout efficiency, branding representation, customer circulation paths, and work environment productivity.",
     scope: [
-      "Public infrastructure layout and zoning",
-      "Building compliance and safety standard checks",
-      "Traffic circulation and accessibility planning",
-      "Administrative office space configurations"
+      "Commercial space planning & circulation",
+      "Facade styling & branding integration",
+      "MEP and services engineering coordination",
+      "Office & retail layout planning"
     ],
     deliverables: [
-      "Master layout plans & zoning blueprints",
-      "Compliance checklist reports",
-      "Detailed construction drawings",
-      "Sanction-ready drawing sets"
+      "Zoned workstation & desk layout plans",
+      "Exterior facade detailing & elevation views",
+      "Detailed MEP coordination drawings",
+      "Site coordination & construction support"
     ]
   },
-  "3d-visualization": {
-    title: "3D Visualization",
-    subtitle: "Visualize your space before execution begins.",
-    description: "Make confident layout and material choices with our high-fidelity 3D renderings and design previews. We show you exactly how different color palettes, wood veneers, paint shades, and lighting schemes look in your actual space.",
+  "institutional-government-projects": {
+    title: "Institutional & Government Projects",
+    subtitle: "Planning and design for institutional, educational, and public infrastructure projects.",
+    description: "Drawing from Ar. Nikita Jumle's extensive experience with public infrastructure (Panchayat Samiti buildings, District Courts, PWD Rest Houses), we deliver compliant plans.",
     scope: [
-      "High-resolution 3D interior design rendering",
-      "3D exterior building elevations",
-      "Material, texture, and color combinations previews",
-      "Virtual space walkthrough animations"
+      "Master planning and public sector zoning",
+      "Functional occupancy layouts",
+      "Regulatory and security standard compliance",
+      "Tender and documentation support"
     ],
     deliverables: [
-      "3D interior rendering views (multiple angles)",
-      "3D exterior elevation renders",
-      "Material board & color code specifications",
-      "Virtual walkthrough video render files"
+      "Detailed zoning and master plans",
+      "Sanction-ready submission drawings",
+      "Tender detail support documents",
+      "Bill of Quantities (BOQ) verification reports"
+    ]
+  },
+  "landscape-design": {
+    title: "Landscape Design",
+    subtitle: "Landscape planning that complements architecture and enhances user experience.",
+    description: "Cohesive landscape design to harmonize open environments with building architecture. We plan hardscapes, planting, water features, and lighting for optimal outdoor living.",
+    scope: [
+      "Site layout & outdoor zoning",
+      "Planting schemes & species selection",
+      "Hardscape styling & path mapping",
+      "Lighting & irrigation system coordination"
+    ],
+    deliverables: [
+      "Landscape master layout plan",
+      "Planting plans & plant schedules",
+      "Outdoor lighting & electrical layouts",
+      "Hardscape construction detail drawings"
+    ]
+  },
+  "construction-drawings": {
+    title: "Construction Drawings",
+    subtitle: "Detailed technical drawings for contractors, developers, and consultants.",
+    description: "We produce highly accurate construction drawings (GFC) to prevent on-site calculation errors, coordinate disciplines, and simplify structural execution.",
+    scope: [
+      "Architectural working drawing detailing",
+      "Door & window hardware scheduling",
+      "Staircase, toilet, and kitchen service details",
+      "Flooring layout & false ceiling plans"
+    ],
+    deliverables: [
+      "GFC (Good for Construction) drawing sets",
+      "Detailed blow-up schedules",
+      "Service coordination layout plans",
+      "Material and quantity lists"
+    ]
+  },
+  "architectural-consultancy": {
+    title: "Architectural Consultancy",
+    subtitle: "Professional guidance from project inception to completion.",
+    description: "Consultancy services to guarantee design quality, supervise schedule execution, verify material grades on-site, and coordinate specialist consultants.",
+    scope: [
+      "Project progress scheduling",
+      "On-site quality supervision & checks",
+      "Material specification verification",
+      "Inter-disciplinary consultant coordination"
+    ],
+    deliverables: [
+      "Site audit and supervision reports",
+      "Consultant coordination updates",
+      "Quality check validation lists",
+      "Progress and scheduling charts"
     ]
   }
 };

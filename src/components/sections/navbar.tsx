@@ -5,10 +5,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
+  { name: "Home", href: "/" },
   { name: "Projects", href: "/projects" },
   { name: "Services", href: "/services" },
   { name: "About", href: "/about" },
@@ -51,13 +53,15 @@ export function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="group flex flex-col">
-            <span className="font-serif text-xl md:text-2xl tracking-[0.15em] text-studio-heading font-semibold transition-colors duration-300">
-              NSJ
-            </span>
-            <span className="text-[6.5px] uppercase tracking-[0.15em] text-studio-body/80 mt-0.5 leading-none transition-colors group-hover:text-studio-accent">
-              Architects & Designers
-            </span>
+          <Link href="/" className="relative block h-9 w-24 md:h-11 md:w-28 shrink-0">
+            <Image
+              src="/logo.png"
+              alt="NSJ Architects and Designers"
+              fill
+              sizes="(max-w-768px) 96px, 112px"
+              className="object-contain object-left"
+              priority
+            />
           </Link>
  
           {/* Desktop Nav Links */}

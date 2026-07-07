@@ -251,12 +251,15 @@ export function ContactSection() {
                         className="flex h-12 w-full border border-studio-border bg-studio-card px-4 py-2 text-sm text-studio-heading focus-visible:outline-none focus:border-studio-accent transition-colors duration-300 font-sans cursor-pointer appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M7%209l3%203%203-3%22%20stroke%3D%22%23B8B5AF%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E')] bg-[length:1.25rem_1.25rem] bg-[right_1rem_center] bg-no-repeat"
                       >
                         <option value="General Inquiry">General Inquiry</option>
-                        <option value="Residential Architecture">Residential Architecture</option>
+                        <option value="Architectural Design">Architectural Design</option>
                         <option value="Interior Design">Interior Design</option>
                         <option value="Home Renovation">Home Renovation</option>
-                        <option value="Commercial & Office Design">Commercial & Office Design</option>
-                        <option value="Institutional Architecture">Institutional Architecture</option>
-                        <option value="3D Visualization">3D Visualization</option>
+                        <option value="Residential Architecture">Residential Architecture</option>
+                        <option value="Commercial Architecture">Commercial Architecture</option>
+                        <option value="Institutional & Government Projects">Institutional & Government Projects</option>
+                        <option value="Landscape Design">Landscape Design</option>
+                        <option value="Construction Drawings">Construction Drawings</option>
+                        <option value="Architectural Consultancy">Architectural Consultancy</option>
                       </select>
                       {errors.service && (
                         <span className="text-red-400 text-xs font-sans mt-1">
