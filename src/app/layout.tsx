@@ -62,6 +62,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${cormorantGaramond.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-studio-bg text-studio-body antialiased selection:bg-studio-accent selection:text-studio-bg">
