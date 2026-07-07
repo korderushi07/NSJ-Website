@@ -28,12 +28,12 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <Introduction />
-        <Services />
         <Projects />
-        <Process />
+        <Services />
         <Founder />
         <Testimonials />
         <Insights />
+        <Process />
         <ContactSection />
         <FAQ />
       </main>

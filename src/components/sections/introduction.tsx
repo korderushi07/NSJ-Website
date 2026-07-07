@@ -66,7 +66,7 @@ export function Introduction() {
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#141416" />
+          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#0B0B0C" />
         </svg>
       </div>
     </section>
