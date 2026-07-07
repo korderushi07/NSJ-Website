@@ -33,9 +33,9 @@ export default function Home() {
         <Process />
         <Founder />
         <Testimonials />
-        <FAQ />
         <Insights />
         <ContactSection />
+        <FAQ />
       </main>
       <Footer />
     </>

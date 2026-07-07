@@ -67,7 +67,7 @@ export function FAQ() {
         </Accordion>
       </div>
 
-      {/* Bottom curved SVG divider transitioning to Insights bg (#F5F3EF) */}
+      {/* Bottom curved SVG divider transitioning to Footer bg (#0B0B0C) */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
         <svg
           className="relative block w-full h-[40px] md:h-[60px]"
@@ -75,7 +75,7 @@ export function FAQ() {
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#F5F3EF" />
+          <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#0B0B0C" />
         </svg>
       </div>
     </section>
