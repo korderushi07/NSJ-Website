@@ -32,10 +32,13 @@ export function SectionHeader({
       )}>
         {caption}
       </span>
-      <h2 className={cn(
-        "text-3xl md:text-5xl font-sans font-extrabold leading-tight tracking-tight uppercase max-w-4xl",
-        theme === "light" ? "text-studio-bg" : "text-studio-heading"
-      )}>
+      <h2
+        style={theme === "light" ? { color: "#000000" } : undefined}
+        className={cn(
+          "text-3xl md:text-5xl font-sans font-extrabold leading-tight tracking-tight uppercase max-w-4xl",
+          theme === "light" ? "text-black" : "text-studio-heading"
+        )}
+      >
         {title}
       </h2>
       {description && (
